@@ -1,6 +1,19 @@
 # malexp_FoundryVTT
 FoundryVTT module, bringing in the community currated Maledictum Expanded homebrew expansion for the Imperium Maledictum game system.
 
+## Status
+### Expanded Talents
+Contains many more talents, mostly imported from the older FFG 40k titles, expecially from Only War, Rogue Trader and Dark Heresy 1&2.
+- [x] Import Data
+- [x] Create prerequisite rules
+- [ ] Create simple automations
+  - [x] Sound Constitution
+- [ ] Create complex automations
+
+### Expanded Armouries
+Contains many more item options (weapons, armor, drugs, wargear, etc) from various sources.
+- [ ] Import Data
+- [ ] Automate complex items, like cybernetic and drugs which may require writing effects
 
 # Development
 **Setup:** Make sure you have npm and nodejs (20+) installed. Run `npm install` in the repository root folder.
