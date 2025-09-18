@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Medicae",
+  "color": null,
+  "sorting": "a",
+  "_id": "izY86mZnEm5R8nja",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "_key": "!folders!izY86mZnEm5R8nja"
+}

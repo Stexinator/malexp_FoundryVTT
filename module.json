@@ -1,0 +1,42 @@
+{
+  "id": "malexp",
+  "title": "Imperium Maledictum - Maledictum Expanded Homebrew Additions and Convertions",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "description": "<p>Brings the expanded options (origins, species, talents, items, vehicles, etc.) from the community / fan-made to your Imperium Maledictum game.</p><hr /><p>Status:</p><ul><li><p>Talents Expanded: WiP</p></li><li><p>Expanded Origin: Planned</p></li><li><p>Expanded Armories: Planned (focus on Imperial &amp; AdMech)</p></li><li><p>Bestiary: Planned</p></li><li><p>Everything else: Maybe</p></li></ul><p></p><hr /><p>Credits for Imperium Maledictum go to Moxy.</p>",
+  "authors": [
+    {
+      "name": "Meins",
+      "flags": {}
+    },
+    {
+      "name": "Moxy",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "malexp_talents",
+      "label": "malexp",
+      "path": "packs/malexp_talents",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "impmal",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
