@@ -1,0 +1,1913 @@
+{
+  "folder": "quDONwMrGXIen1tl",
+  "name": "Cultist",
+  "type": "npc",
+  "img": "modules/impmal-core/assets/actors/cultist.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 2,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 2,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 2,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>@UUID[JournalEntry.6hX0E9XlPUoRaDaQ.JournalEntryPage.KN6hJOFxExaZ7fYL]{Heretics}</p><p>There are countless reasons why individuals choose to join a cult — desperation, bitterness, or a hunger for power to name a few. Regardless of the reason, cultists are most often the downtrodden masses who partake in profane rituals under the watchful eye of their leaders, praying for a glimmer of favour from their inhuman patron. Their equipment is often ramshackle and cast-off, and they receive little martial training from their leaders, yet they will throw themselves at their foes with reckless abandon if it offers the promise of appeasing their dark masters.</p>"
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "wounds": {
+        "max": 0,
+        "value": 0
+      },
+      "criticals": {
+        "max": 0,
+        "value": 0
+      },
+      "hitLocations": {
+        "head": {
+          "range": [
+            1,
+            1
+          ],
+          "label": "IMPMAL.Head",
+          "abbrev": "IMPMAL.HeadAbbrev"
+        },
+        "leftArm": {
+          "range": [
+            2,
+            2
+          ],
+          "label": "IMPMAL.LeftArm",
+          "abbrev": "IMPMAL.LeftArmAbbrev"
+        },
+        "rightArm": {
+          "range": [
+            3,
+            3
+          ],
+          "label": "IMPMAL.RightArm",
+          "abbrev": "IMPMAL.RightArmAbbrev"
+        },
+        "leftLeg": {
+          "range": [
+            4,
+            4
+          ],
+          "label": "IMPMAL.LeftLeg",
+          "abbrev": "IMPMAL.LeftLegAbbrev"
+        },
+        "rightLeg": {
+          "range": [
+            5,
+            5
+          ],
+          "label": "IMPMAL.RightLeg",
+          "abbrev": "IMPMAL.RightLegAbbrev"
+        },
+        "body": {
+          "range": [
+            6,
+            10
+          ],
+          "label": "IMPMAL.Body",
+          "abbrev": "IMPMAL.BodyAbbrev"
+        }
+      },
+      "resolve": 1,
+      "armour": {
+        "formula": "",
+        "value": 1,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Heretic"
+    },
+    "species": "Human",
+    "role": "troop",
+    "warp": {
+      "charge": 0,
+      "state": 0,
+      "sustaining": {
+        "list": []
+      }
+    },
+    "autoCalc": {
+      "wounds": true,
+      "criticals": true,
+      "initiative": true
+    }
+  },
+  "prototypeToken": {
+    "name": "Cultist",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/cultist.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "combat.wounds"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Deception",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#rapport-(fel)]{Rapport}</p><p>Well-practised, or specifically trained, to deceive without flinching. Deception is often opposed by Intuition. </p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "rapport"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      },
+      "_id": "nhW5AN4gHrWvmfyz"
+    },
+    {
+      "name": "Sanity is for the Weak",
+      "type": "trait",
+      "system": {
+        "notes": {
+          "player": "<p>Whenever a Cultist fails a Discipline Test, they may choose to suffer [[/r 1d10]] damage that ignores Armour to automatically pass the Test.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard",
+        "vehicle": {
+          "maneuverable": 0
+        }
+      },
+      "_id": "taQqyvrksIFdm8po",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "effects": [
+        {
+          "name": "Sanity is for the Weak",
+          "_id": "l0h7dMDrFOD6B8Xz",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.345",
+            "systemId": "impmal",
+            "systemVersion": "3.1.0",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Discipline Tests",
+                "trigger": "rollSkillTest",
+                "options": {
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.ZvHWXNS3NmRwZNAo]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Witch-mark",
+      "type": "trait",
+      "system": {
+        "notes": {
+          "player": "<p>The Cultist has a @UUID[JournalEntry.6hX0E9XlPUoRaDaQ.JournalEntryPage.KN6hJOFxExaZ7fYL#witch-marks-and-other-heresies]{Witch-mark}.</p><p></p>",
+          "gm": ""
+        },
+        "attack": {
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard",
+        "vehicle": {
+          "maneuverable": 0
+        }
+      },
+      "_id": "7SA2XuvBGeRNxuEd",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "effects": [
+        {
+          "name": "Genestealer Mutation",
+          "_id": "etasuSqtm5t6djAe",
+          "changes": [],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.345",
+            "systemId": "impmal",
+            "systemVersion": "3.1.0",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Advantage on Discipline Tests when within Long Range of Genestealer Psyker",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.dXn0fA1NOqdrH4Bc]",
+                  "activateScript": "[Script.NMS9w5uSijOotJeQ]",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.AXOnZ7UZlPmawf88]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        },
+        {
+          "name": "Mark of Khorne",
+          "_id": "LI8Xgg3oKaeASs19",
+          "changes": [
+            {
+              "key": "system.characteristics.ws.modifier",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            },
+            {
+              "key": "system.characteristics.str.modifier",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.345",
+            "systemId": "impmal",
+            "systemVersion": "3.1.0",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        },
+        {
+          "name": "Mark of Nurgle",
+          "_id": "ImpQD3sNCwZ4bYuu",
+          "changes": [
+            {
+              "key": "system.characteristics.tgh.modifier",
+              "mode": 2,
+              "value": "20",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.345",
+            "systemId": "impmal",
+            "systemVersion": "3.1.0",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        },
+        {
+          "name": "Mark of Slaanesh",
+          "_id": "CZRIAjSGSeWJHgXy",
+          "changes": [
+            {
+              "key": "system.characteristics.per.modifier",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            },
+            {
+              "key": "system.characteristics.fel.modifier",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.345",
+            "systemId": "impmal",
+            "systemVersion": "3.1.0",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        },
+        {
+          "name": "Mark of Tzeentch",
+          "_id": "mXDglkiybbNhfq88",
+          "changes": [
+            {
+              "key": "system.characteristics.int.modifier",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            },
+            {
+              "key": "system.characteristics.wil.modifier",
+              "mode": 2,
+              "value": "10",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.345",
+            "systemId": "impmal",
+            "systemVersion": "3.1.0",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Autogun",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "cost": 600,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "damage": {
+          "base": "6",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "loud"
+            },
+            {
+              "key": "rapidFire",
+              "value": "3"
+            },
+            {
+              "key": "twohanded"
+            }
+          ]
+        },
+        "ammoCost": 30,
+        "attackType": "ranged",
+        "category": "solid",
+        "spec": "longGun",
+        "range": "long",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 5,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "nyjv454gtdJ43klt",
+      "img": "modules/impmal-core/assets/icons/weapons/autogun.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Autopistol",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 400,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "damage": {
+          "base": "5",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "rapidFire",
+              "value": "3"
+            }
+          ]
+        },
+        "ammoCost": 20,
+        "attackType": "ranged",
+        "category": "solid",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 3,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "AfhkWSUYY9y6byiN",
+      "img": "modules/impmal-core/assets/icons/weapons/autopistol.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Sword",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 150,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "damage": {
+          "base": "2",
+          "characteristic": "str",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "–"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "mundane",
+        "spec": "oneHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 0,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "bS4Uy21y8pkp7I7P",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 50,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "damage": {
+          "base": "0",
+          "characteristic": "str",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "subtle"
+            },
+            {
+              "key": "thrown",
+              "value": "Short"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "mundane",
+        "spec": "oneHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 0,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "qQ8Y8nmiaTaKgzvs",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Disguise Kit",
+      "system": {
+        "notes": {
+          "player": "<p>Disguise Kits are filled with makeup sets, facial prosthetics, skin and hair dyes, wigs and facial hair appliances, and more. A Disguise Kit is essential when merely altering your voice and clothing isn't enough to fool guards and pict scanners. It takes 10 minutes to alter your appearance using a Disguise Kit. No Test is required to simply make yourself look different. However, if you are trying to alter your appearance to appear as a member of a particular faction or to impersonate a specific individual, the GM can ask for a <strong>Challenging (+0)</strong> or harder Dexterity</strong> Test.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 100,
+        "availability": "exotic",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "dexterity",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "_id": "0UvzFzFgZ6N3AEHp",
+      "img": "modules/impmal-core/assets/icons/equipment/disguise-kit.webp",
+      "effects": [],
+      "sort": 1200000,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "type": "equipment",
+      "name": "some Heretical Writings",
+      "_id": "7glxBwWk7rw4b9g3",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "type": "equipment",
+      "name": "20 solars",
+      "_id": "xaFdtIATItKes4E3",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Forbidden",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#lore-(int)]{Lore}</p><p>Knowledge and training in a specific subject that is utterly suppressed within the Imperium. Knowing information about aliens or psykers without specific dispensation from a powerful individual or group can get you in serious trouble. True knowledge of daemons lead to summary execution. Any knowledge of the immaterium, beyond common myth, is typically strictly obscured within the Imperium, as is real knowledge about the Adeptus Astartes. Each Forbidden Lore requires taking a corresponding @UUID[Compendium.impmal-core.items.Item.Lbm6mRMiqSGHq9GD]{Forbidden Knowledge} Talent in order to learn it.</p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": true,
+        "skill": "lore"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      },
+      "_id": "0WV8IJuVkxLdOuem"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Forbidden",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#linguistics-(int)]{Linguistics}</p><p>Those possessed of this skill understand a language or form of communication that is either highly restricted or prohibited within the Imperium. With few exceptions, it is considered heretical to know the languages of aliens; however, the Sisters of the Orders Dialogus are frequently granted special dispensation from the Adeptus Ministorum to learn such in pursuit of their duties. Some xenos languages, such as the Kroot’s, are unpronounceable by a Human tongue without augmentation. While some languages are considered too profane to speak, others are too holy for common knowledge. The Lingua-technis of the Adeptus Mechanicus is a forbidden language that few outside their order have ever learned, in part, because it is based on binary machine code that all but the most gifted individuals require cybernetic implants to speak. Thoughtmark, the form of sign language used by the Sisters of Silence, is also known to very few outsiders. Each Forbidden Language requires taking a corresponding @UUID[Compendium.impmal-core.items.Item.Lbm6mRMiqSGHq9GD]{Forbidden Knowledge} Talent in order to learn it. </p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": true,
+        "skill": "linguistics"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      },
+      "_id": "z3pFUwFlp4BJf1oJ"
+    },
+    {
+      "name": "Robes/Light Leathers",
+      "type": "protection",
+      "folder": "ZuAeviXZUQVXVQQr",
+      "_id": "D9X5jPYYafLyPqKh",
+      "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "cost": 10,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "subtle"
+            }
+          ]
+        },
+        "category": "mundane",
+        "armour": 1,
+        "locations": {
+          "list": [
+            "rightArm",
+            "leftArm",
+            "body",
+            "rightLeg",
+            "leftLeg"
+          ],
+          "label": "Arms, Body, Legs"
+        },
+        "damage": {},
+        "rended": {},
+        "slots": {
+          "list": [],
+          "value": 0
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Glow-Globe/Stablight",
+      "system": {
+        "notes": {
+          "player": "<p>The dark spaces within the Macharian Sector demand purifying light, both figuratively and literally. Stablights are hand held and dependable, having illuminated caverns and voidship underdecks for millennia, while glow globes are usually mounted in ceilings or along walls.</p><p>Using this device removes the Poorly Lit and @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.zQYkbNcsJmGintdL#dark]{Dark} Traits from your Zone. The device can shine for 5 hours and recharges after 2 hours of non-use, or almost immediately when connected to a standard Imperial power source.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 30,
+        "availability": "common",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "_id": "1LgXZfag35FhcNoj",
+      "img": "modules/impmal-core/assets/icons/equipment/glow-globe.webp",
+      "effects": [],
+      "sort": 1700000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Holy Icon",
+      "system": {
+        "notes": {
+          "player": "<p>A Holy Icon might take any number of forms depending on an individual's faith and the specific version of the Imperial Creed they follow. For many it is a small Aquila, perhaps hand-made or gained during a pilgrimage to a sacred location. Icons carved from the ground upon which Saint Macharius trod are popular as well.</p><p>A character with a Holy Icon who has shown sufficient faith may add +1 SL to Discipline (Fear) Tests.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false,
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 10,
+        "availability": "common",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "_id": "oaY0wS7LewD6DXK6",
+      "img": "modules/impmal-core/assets/icons/equipment/holy-icon.webp",
+      "effects": [
+        {
+          "name": "Holy Icon",
+          "_id": "bpNwPrTPQ9cksVEb",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "13.345",
+            "systemId": "impmal",
+            "systemVersion": "3.1.0",
+            "lastModifiedBy": null
+          },
+          "img": "modules/impmal-core/assets/icons/equipment/holy-icon.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": true,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "+1 SL for those who have shown sufficient faith",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.9KZE5gliwJ1ADoOG]",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false
+                },
+                "script": "[Script.6yX3fQEJHfGmXLwW]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0
+        }
+      ],
+      "sort": 2000000,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756978051649,
+    "modifiedTime": 1756978051649,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Actor.ppicZvgr0bEuhWeh",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  },
+  "_id": "ppicZvgr0bEuhWeh"
+}

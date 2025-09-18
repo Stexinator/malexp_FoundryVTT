@@ -1,0 +1,55 @@
+{
+  "folder": "9mPmD41RQX7aPoah",
+  "name": "Abiding Resilience",
+  "type": "talent",
+  "_id": "hE9mQSYmuW7IHy5s",
+  "img": "modules/impmal-core/assets/icons/generic.webp",
+  "system": {
+    "notes": {
+      "player": "<p><span style=\"font-family: Arial\">Spend FP to recover 1d5+TghB</span></p><hr><p><span style=\"font-family: Arial\"><em>You can now expend a Fate Point to regain 1d5 + Toughness Bonus Wounds.</em></span></p>",
+      "gm": ""
+    },
+    "requirement": {
+      "value": "2 Advances in Fortitude",
+      "script": "return this.actor.system.skills.fortitude.advances >= 2"
+    },
+    "test": {
+      "difficulty": "challenging",
+      "characteristic": "",
+      "skill": {
+        "key": "",
+        "specialisation": ""
+      },
+      "self": false
+    },
+    "taken": 1,
+    "xpCost": 100,
+    "effectOptions": {
+      "list": []
+    },
+    "effectTakenRequirement": {},
+    "effectRepeatable": {},
+    "effectChoices": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756214683044,
+    "modifiedTime": 1756214683044,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Item.hE9mQSYmuW7IHy5s",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  }
+}

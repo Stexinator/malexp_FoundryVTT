@@ -1,0 +1,69 @@
+{
+  "name": "Astra Militarum Flak Armour",
+  "type": "protection",
+  "folder": "ZuAeviXZUQVXVQQr",
+  "_id": "aqCpRjWWo12MmI5j",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 5
+    },
+    "cost": 1000,
+    "availability": "rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "flak",
+    "armour": 4,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756127136959,
+    "modifiedTime": 1756127136959,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Item.aqCpRjWWo12MmI5j",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  }
+}

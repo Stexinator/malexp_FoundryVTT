@@ -1,0 +1,586 @@
+{
+  "name": "Frenzy",
+  "system": {
+    "notes": {
+      "player": "<p>You can work yourself into a frothing battle rage. As a Free Action you can make a <strong>Challenging (+0) Willpower</strong> to enter a frenzied state. While frenzied your Strength Bonus increases by +1 and you are immune to the Frightened Condition. On your turn, you must attempt to engage the nearest enemy in melee combat. You remain in this state until all enemies you can currently see have been defeated, or until you are affected by the Stunned or Unconscious Condition.</p><p>This Talent can be taken multiple times, each time choose one of the following:</p><ul><li><p><strong>Frenzied Control</strong>: You can make a <strong>Difficult (−10) Discipline (Composure)</strong> Test as an Action, to halt your Frenzied state.</p></li><li><p><strong>Frenzied Fearlessness</strong>: Whenever you would become Frightened, you may immediately become Frenzied instead.</p></li><li><p><strong>Frenzied Momentum</strong>: One per Turn, when you kill an enemy whilst Frenzied, you may immediately Move or take another Action.</p></li></ul>",
+      "gm": ""
+    },
+    "requirement": {
+      "value": "",
+      "script": ""
+    },
+    "test": {
+      "difficulty": "challenging",
+      "characteristic": "wil",
+      "skill": {
+        "key": "",
+        "specialisation": ""
+      },
+      "self": false
+    },
+    "taken": 1,
+    "xpCost": 100,
+    "effectOptions": {
+      "list": [
+        {
+          "id": "bphnZxw6Z0r2gY1N"
+        },
+        {
+          "id": "8X6D2kLNae7Nz3E2"
+        },
+        {
+          "id": "g9p5WRsPkyRhl3jk"
+        }
+      ]
+    },
+    "effectTakenRequirement": {
+      "bphnZxw6Z0r2gY1N": 2,
+      "8X6D2kLNae7Nz3E2": 2,
+      "g9p5WRsPkyRhl3jk": 2
+    },
+    "effectRepeatable": {
+      "bphnZxw6Z0r2gY1N": false,
+      "8X6D2kLNae7Nz3E2": false,
+      "g9p5WRsPkyRhl3jk": false
+    },
+    "effectChoices": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "type": "talent",
+  "folder": "0BFlDbZ88BuqNlV2",
+  "_id": "IcW3bgn6pj0UpOPY",
+  "img": "modules/impmal-core/assets/icons/generic.webp",
+  "effects": [
+    {
+      "name": "Frenzy",
+      "_id": "km3GHyXZOxviszHB",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": true
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      },
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "other",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": false,
+            "reversed": false,
+            "difficulty": "",
+            "characteristic": "",
+            "skill": {
+              "key": "",
+              "specialisation": ""
+            }
+          },
+          "prompt": false,
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          },
+          "selfOnly": true,
+          "originalType": "document",
+          "testIndependent": false,
+          "equipTransfer": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          }
+        },
+        "scriptData": [
+          {
+            "label": "Strength Bonus",
+            "trigger": "computeCharacteristics",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "script": "[Script.FPL7mqCoBPNxFF5l]",
+            "async": false
+          },
+          {
+            "label": "Frightened Immune",
+            "trigger": "updateDocument",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "script": "[Script.vEmrAi2As49u9oLY]",
+            "async": false
+          }
+        ],
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "sort": 0
+    },
+    {
+      "name": "Frenzied Control",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "_id": "bphnZxw6Z0r2gY1N",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Frenzied Fearlessness",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "_id": "8X6D2kLNae7Nz3E2",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Frenzied Momentum",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "_id": "g9p5WRsPkyRhl3jk",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Apply Frenzy",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "_id": "qV0EucpYWgskHp2l",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Item",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "if (args.succeeded)\n{\n\tthis.actor.applyEffect({effectUuids : this.item.effects.getName(\"Frenzy\").uuid})\n}\nelse \n{\n\targs.result.text.frenzy = \"Failed to apply Frenzy!\"\n\n}",
+            "label": "Roll Test",
+            "trigger": "rollTest",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {
+            "barrier": false,
+            "difficult": false,
+            "warpTouched": false
+          },
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756127136550,
+    "modifiedTime": 1756979524034,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Item.IcW3bgn6pj0UpOPY",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "{{Talent}}",
+  "type": "talent",
+  "_id": "malExpTal0{{ID}}",
+  "img": "modules/impmal-core/assets/icons/generic.webp",
+  "system": {
+    "notes": {
+      "player": "<p><span style=\"font-family: Arial\">{{Brief}}</span></p><hr><p><span style=\"font-family: Arial\"><em>{{Text}}</em></span></p>",
+      "gm": "Talent Category: {{Category}}"
+    },
+    "requirement": {
+      "value": "{{Prerequisites}}",
+      "script": "{{Rules}}"
+    },
+    "test": {
+      "difficulty": "challenging",
+      "characteristic": "",
+      "skill": {
+        "key": "",
+        "specialisation": ""
+      },
+      "self": false
+    },
+    "taken": 1,
+    "xpCost": 100,
+    "effectOptions": {
+      "list": []
+    },
+    "effectTakenRequirement": {},
+    "effectRepeatable": {},
+    "effectChoices": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756214683044,
+    "modifiedTime": 1756214683044,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU"
+  }
+}

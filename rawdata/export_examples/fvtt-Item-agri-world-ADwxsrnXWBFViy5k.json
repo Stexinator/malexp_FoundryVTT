@@ -1,0 +1,67 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Agri World",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "modules/impmal-core/assets/icons/origins/agri-world.webp",
+  "system": {
+    "notes": {
+      "player": "<p><strong>Example Macharian Agri Worlds</strong></p><p><em>Crultus, Harjus</em></p><p>You hail from an agri world, a planet dedicated to the sole purpose of producing food to satiate the teeming masses of the Imperium. Few industrialised planets have the resources to maintain their populace and require the output of Agri Worlds to fulfil their duty to the Emperor. Vast swaths of land are dedicated to the production of the most valuable crops or livestock, and millions of litres of potable water are extracted daily.</p><p>A heavy tithe is expected of every Agri World. Some meet these onerous requirements by means of technological wonders, their secrets long forgotten, though most rely on the backbreaking toil of their inhabitants. As an Agri Worlder, your early life was likely dedicated to preparation for some form of farming. Most agri worlders are physically strong, tough workers used to unrelenting toil. Others are dextrous, dedicated to delicate if monotonous tasks, while others still have minds for the detailed organisation required to optimise a planet of production and are sought out by the Administratum.</p><ul><li><p>You gain +5 Strength and +5 to either Toughness, Agility, or Willpower.</p></li><li><p>You gain a <em>Shoddy</em> @UUID[Compendium.impmal-core.items.Item.Dlv5TTOiyOJphsIl]{Entrenching Tool}.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.Dlv5TTOiyOJphsIl",
+          "diff": {
+            "name": "Shoddy Entrenching Tool",
+            "flags": {},
+            "system": {
+              "traits": {
+                "list": [
+                  {
+                    "key": "shoddy"
+                  }
+                ]
+              }
+            }
+          },
+          "name": "Shoddy Entrenching Tool"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "str",
+      "choices": [
+        "tgh",
+        "ag",
+        "wil"
+      ]
+    },
+    "factionTable": {
+      "id": "",
+      "name": "Agri World Faction",
+      "uuid": "Compendium.impmal-core.tables.RollTable.ep3s7nKOUoph2xIi"
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756115787565,
+    "modifiedTime": 1756115787565,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Item.ADwxsrnXWBFViy5k",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "bsCfIjtUg7FcIVrZ",
+  "name": "Bleeder Rounds",
+  "type": "ammo",
+  "img": "modules/impmal-core/assets/icons/ammo/ammo.webp",
+  "system": {
+    "notes": {
+      "player": "<p>Bleeder rounds are a particularly cruel and effective form of projectile designed to induce catastrophic haemorrhaging in a target. These include intense anti-coagulants and other chemicals to keep even the slightest of wounds profusely gushing blood.</p>",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 0,
+    "availability": "rare",
+    "quantity": 0,
+    "custom": true,
+    "priceMultiplier": 2,
+    "usedWith": "Solid Projectile Weapons, excluding Shotguns",
+    "damage": null,
+    "addedTraits": {
+      "list": [
+        {
+          "key": "inflict",
+          "value": "Bleeding"
+        }
+      ]
+    },
+    "removedTraits": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756115789443,
+    "modifiedTime": 1756115789443,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Item.kZuL2i84eWjUTUFv",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  },
+  "_id": "kZuL2i84eWjUTUFv"
+}

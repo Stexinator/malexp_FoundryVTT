@@ -1,0 +1,153 @@
+{
+  "folder": "yGTYh3jnH67xSfB9",
+  "name": "Utility Mechadendrite",
+  "type": "augmetic",
+  "img": "modules/impmal-core/assets/icons/augmetics/augmetic.webp",
+  "system": {
+    "notes": {
+      "player": "<p>These snake-like metal devices are affixed to the chest, back, or shoulders and act as additional manipulators. They are only found among adepts of the @UUID[JournalEntry.uJURMn2glWHhjqJk.JournalEntryPage.1oKZw1hTM7Gx5cqB]{Adeptus Mechanicus}, and extend roughly 2 metres in length. Each is fitted with its own special mechanisms. Using any Mechadendrite requires an Action.</p><p>Each Mechadendrite counts as a separate augmentation towards the maximum number a character can possess. If a character with Mechadendrites would suffer a Critical Wound to the Body location, roll a d10. If the result is less than the number of functioning Mechadendrites the character has installed, one of those is damaged instead. Damaged Mechadendrites cannot be used until they are repaired.</p><ul><li><p><strong>Utility</strong>: These are fitted with several devices for repairing and renovating machines, and are the most common form of Mechadendrite. They count as a Standard Quality @UUID[Compendium.impmal-core.items.Item.xQ2vhqZTWMBZ3Jxi]{Combi-Tool}, granting +2 SL to Tech Tests, and can be used in melee combat as an @UUID[Compendium.impmal-core.items.Item.CrbE669FitnwNPZX]{Improvised Melee Weapon (One-handed)}.</p></li></ul>",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 1000,
+    "availability": "rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "traits": {
+      "list": []
+    }
+  },
+  "effects": [
+    {
+      "name": "Utility Mechadendrite",
+      "_id": "VE5b75GjN6IN9hC5",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "impmal",
+        "systemVersion": "3.1.0",
+        "lastModifiedBy": null
+      },
+      "img": "modules/impmal-core/assets/icons/augmetics/augmetic.webp",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "equipTransfer": true,
+          "prompt": false,
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          },
+          "originalType": "document",
+          "testIndependent": false,
+          "selfOnly": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          }
+        },
+        "scriptData": [
+          {
+            "label": "+2 SL to Tech tests",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "[Script.OwHe6K3jsNjQpwrT]",
+              "activateScript": "[Script.CZlu5B5tCkbnoalq]",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "script": "[Script.dc8x3nb7mpNiKqKd]",
+            "async": false
+          }
+        ],
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "sort": 0
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756127135203,
+    "modifiedTime": 1756127135203,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Item.OYd3RMsWKUn78MZK",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  },
+  "_id": "OYd3RMsWKUn78MZK"
+}

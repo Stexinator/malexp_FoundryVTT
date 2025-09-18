@@ -1,0 +1,80 @@
+{
+  "name": "Chainsword",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 500,
+    "availability": "scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "damage": {
+      "base": "3",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "loud"
+        },
+        {
+          "key": "rend",
+          "value": "2"
+        }
+      ]
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "chain",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "folder": "Eic6vQH0ZQYinOav",
+  "_id": "tjUKnuDKTCCon28r",
+  "img": "modules/impmal-core/assets/icons/weapons/chainsword.webp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0",
+    "createdTime": 1756115789795,
+    "modifiedTime": 1756115789795,
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "exportSource": {
+      "worldId": "guard",
+      "uuid": "Item.tjUKnuDKTCCon28r",
+      "coreVersion": "13.345",
+      "systemId": "impmal",
+      "systemVersion": "3.1.0"
+    }
+  }
+}
