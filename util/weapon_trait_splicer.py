@@ -1,39 +1,36 @@
 import csv
 import re
+import json
 
-advanceRegEx = re.compile(r"([\d]) Advance[s]? in ([\w]*)(\(([\w -–,]*)\))?(,| and| or)?")
-talentRegEx = re.compile(r"([\w ’]*)(\([\w ]*\))? Talent")
+# Match patterns like "Rend (3)" or "Loud"
+traitRegEx = re.compile(r"([\w\s]+?)(?:\s*\((\d+)\))?$")
 
+output = []
 
-with open("src_w_rules.csv", encoding="utf-8", newline='') as csvfile:
-  dictreader = csv.DictReader(csvfile)
-  is_first = True
-  for row in dictreader:
-    # foreach row
-    col_names = dictreader.fieldnames
+with open("rawdata/weapon_src.csv", encoding="utf-8", newline='') as csvfile:
+    dictreader = csv.DictReader(csvfile)
     for row in dictreader:
-      for col in col_names:
-        if(not col == "Prerequisites"):
-          continue
-        advanceReqMatch = advanceRegEx.findall(row[col])
-        talentMatches = talentRegEx.findall(row[col])
-        rules = ""
-        skill_req = []
-        spec_req = []
-        talent_req = []
-        for m in advanceReqMatch:
-          if(not m[0]):
-            continue
-          if(not m[2]):
-            skill_req.append("this.actor.system.skills.{}.advances >= {}".format(m[1].lower(), m[0]))
-          else:
-            spec_req.append(r'(this.actor.itemTypes["specialisation"].find(i => i.name == "{}" && i.system.skill == "{}")?.system?.advances >= {})'.format(m[3], m[1].lower(), m[0]))
-        for m in talentMatches:
-          if(not m[0]):
-            continue
-          talent_req.append('this.actor.itemTypes["talent"].find(i => i.name == "{}")'.format(m[0].strip()+m[1].strip()))
-        #print("SkillReq: {} || SpecReq: {} || TalentReq: {}".format(skill_req, spec_req, talent_req))
-        if(not skill_req and not spec_req and not talent_req):
-          print()
-        else:
-          print('return ' + " && ".join(skill_req + spec_req + talent_req))
+        traits_list = []
+
+        # Assuming the column is named exactly "Traits"
+        traits_raw = row.get("Traits", "")
+        trait_entries = [t.strip() for t in traits_raw.split(",") if t.strip()]
+
+        for trait in trait_entries:
+            match = traitRegEx.match(trait)
+            if match:
+                key = match.group(1).strip().lower().replace(" ", "")  # normalize to camelCase-ish
+                value = match.group(2)
+                trait_obj = {"key": key}
+                if value:
+                    trait_obj["value"] = value
+                traits_list.append(trait_obj)
+
+        output.append({
+            "traits": {
+                "list": traits_list
+            }
+        })
+
+# Pretty print the result
+print(json.dumps(output, indent=2))
