@@ -1,52 +1,34 @@
 {
-  "name": "Autogun",
+  "name": "{{Name}}",
   "type": "weapon",
   "system": {
     "notes": {
-      "player": "",
+      "player":"{{Description}}",
       "gm": ""
     },
     "encumbrance": {
-      "value": 2
+      "value":{{Enc}} 
     },
-    "cost": 600,
-    "availability": "common",
+    "cost": {{InitialCost}},
+    "availability": "{{Avail}}",
     "quantity": 1,
     "equipped": {
       "value": false,
       "force": false
     },
-    "damage": {
-      "base": "6",
-      "characteristic": "",
-      "SL": false,
-      "ignoreAP": false
-    },
-    "traits": {
-      "list": [
-        {
-          "key": "loud"
-        },
-        {
-          "key": "rapidFire",
-          "value": "3"
-        },
-        {
-          "key": "twohanded"
-        }
-      ]
-    },
-    "ammoCost": 30,
-    "attackType": "ranged",
-    "category": "solid",
-    "spec": "longGun",
-    "range": "long",
+    "{{JsonDamage}}",
+    "{{JsonTraits}}",
+    "ammoCost":{{AmmoCost}} ,
+    "attackType": "{{AttackType}}",
+    "category":"{{JsonCategory}}",
+    "spec": "{{JsonSkill}}",
+    "range": "{{JsonRange}}",
     "rangeModifier": {
       "value": 0,
       "override": ""
     },
     "mag": {
-      "value": 5,
+      "value":{{Mag}} ,
       "current": null
     },
     "ammo": {
@@ -60,9 +42,6 @@
       "value": 0
     }
   },
-  "folder": "Eic6vQH0ZQYinOav",
-  "_id": "AHbaIABkRsbJRJXM",
-  "img": "modules/impmal-core/assets/icons/weapons/autogun.webp",
   "effects": [],
   "flags": {},
   "_stats": {
@@ -72,12 +51,5 @@
     "createdTime": 1756127136959,
     "modifiedTime": 1756127136959,
     "lastModifiedBy": "bfVhf0cfdU0mWsuU",
-    "exportSource": {
-      "worldId": "guard",
-      "uuid": "Item.AHbaIABkRsbJRJXM",
-      "coreVersion": "13.345",
-      "systemId": "impmal",
-      "systemVersion": "3.1.0"
-    }
   }
 }
