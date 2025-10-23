@@ -22,7 +22,7 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 1. Make changes in foundry.
 2. Lock the compendium once changes are done.
 3. Copy foundry ldb file from the module to `build/packs/`
-4. Run `npm run ExtractPacks`
+4. Run `npm run extractPacks`
 5. Review and Commit changes applied to the extracted json files in `packs/...`
 
 ## Workflow: Json-to-Foundry
