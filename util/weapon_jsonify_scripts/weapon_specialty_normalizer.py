@@ -28,8 +28,8 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
     dictreader = csv.DictReader(infile)
     fieldnames = dictreader.fieldnames
 
-    if "JsonSkill" not in fieldnames:
-        fieldnames.append("JsonSkill")
+    if "NormalizedSkill" not in fieldnames:
+        fieldnames.append("NormalizedSkill")
 
     dictwriter = csv.DictWriter(outfile, fieldnames=fieldnames)
     dictwriter.writeheader()
@@ -38,7 +38,7 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
         specialisation = row.get("Specialisation", "")
         skill_name = normalize_skill_name(specialisation)
 
-        row["JsonSkill"] = skill_name
+        row["NormalizedSkill"] = json.dumps(skill_name, ensure_ascii=False)
         dictwriter.writerow(row)
 
 # Replace original file with updated version

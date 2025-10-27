@@ -16,13 +16,13 @@
       "value": false,
       "force": false
     },
-    "{{JsonDamage}}",
-    "{{JsonTraits}}",
-    "ammoCost":{{AmmoCost}} ,
+    "damage" : {{JsonDamage}},
+    "traits" : {{JsonTraits}},
+    "ammoCost": {{AmmoCost}} ,
     "attackType": "{{AttackType}}",
-    "category":"{{JsonCategory}}",
-    "spec": "{{JsonSkill}}",
-    "range": "{{JsonRange}}",
+    "category" : "{{NormalizedCategory}}",
+    "spec" : "{{NormalizedSkill}}",
+    "range" : "{{NormalizedRange}}",
     "rangeModifier": {
       "value": 0,
       "override": ""

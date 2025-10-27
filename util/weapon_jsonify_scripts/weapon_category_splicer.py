@@ -37,8 +37,8 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
     dictreader = csv.DictReader(infile)
     fieldnames = dictreader.fieldnames
 
-    if "JsonCategory" not in fieldnames:
-        fieldnames.append("JsonCategory")
+    if "NormalizedCategory" not in fieldnames:
+        fieldnames.append("NormalizedCategory")
 
     dictwriter = csv.DictWriter(outfile, fieldnames=fieldnames)
     dictwriter.writeheader()
@@ -46,9 +46,7 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
     for row in dictreader:
         description = row.get("Description", "").strip()
         category = detect_category(description)
-
-        category_json = {"category": category}
-        row["JsonCategory"] = json.dumps(category_json, ensure_ascii=False)
+        row["NormalizedCategory"] = category
         dictwriter.writerow(row)
 
 # Replace original file

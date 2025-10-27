@@ -15,7 +15,7 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
     fieldnames = dictreader.fieldnames
 
     # Add new columns if missing
-    for col in ("AttackType", "JsonRange"):
+    for col in ("AttackType", "NormalizedRange"):
         if col not in fieldnames:
             fieldnames.append(col)
 
@@ -30,8 +30,7 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
         row["AttackType"] = "melee" if melee else "ranged"
 
         # Store range only if it's ranged
-        json_range = {"range": "" if melee else range_raw}
-        row["JsonRange"] = json.dumps(json_range, ensure_ascii=False)
+        row["NormalizedRange"] = "" if melee else range_raw
 
         dictwriter.writerow(row)
 

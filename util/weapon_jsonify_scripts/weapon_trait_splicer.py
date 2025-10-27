@@ -44,13 +44,7 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
                     trait_obj["value"] = value
                 traits_list.append(trait_obj)
 
-        json_structure = {
-            "traits": {
-                "list": traits_list
-            }
-        }
-
-        row["JsonTraits"] = json.dumps(json_structure, ensure_ascii=False)
+        row["JsonTraits"] = json.dumps(traits_list, ensure_ascii=False)
 
         dictwriter.writerow(row)
 

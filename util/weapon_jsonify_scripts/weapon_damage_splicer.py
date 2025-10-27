@@ -45,7 +45,7 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
             if char_mod:
                 damage_data["characteristic"] = normalize_characteristic(char_mod)
 
-        row["JsonDamage"] = json.dumps({"damage": damage_data}, ensure_ascii=False)
+        row["JsonDamage"] = json.dumps(damage_data, ensure_ascii=False)
         dictwriter.writerow(row)
 
 # Replace original file with updated version
