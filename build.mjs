@@ -25,7 +25,7 @@ for (const pack of packFolders) {
 console.log("Build Packs Finished");
 
 // Copy files and folders to output
-const files = ["module.json", "module", "templates"];
+const files = ["module.json"];
 for (const file of files) {
     await fs.cp(file, path.resolve(outDir, file), { recursive: true });
 }
