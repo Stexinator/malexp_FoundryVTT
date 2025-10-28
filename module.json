@@ -1,5 +1,5 @@
 {
-  "id": "malexp",
+  "id": "impmal-malexp",
   "title": "Imperium Maledictum - Maledictum Expanded Homebrew Additions and Convertions",
   "version": "1.0.0",
   "compatibility": {
@@ -17,10 +17,32 @@
       "flags": {}
     }
   ],
+  "packFolders": [
+    {
+      "name": "Maledictum Expanded",
+      "sorting": "m",
+      "folders": [
+          {
+            "name": "Expanded Character Options",
+            "sorting": "a",
+            "packs": [
+                "malexp_talents"
+            ]
+          },
+         {
+          "name": "Bestiary Expanded",
+          "sorting": "a",
+          "packs":[
+            
+          ]
+         } 
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "malexp_talents",
-      "label": "malexp",
+      "label": "MalExp - Talents",
       "path": "packs/malexp_talents",
       "type": "Item",
       "ownership": {
