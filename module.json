@@ -33,7 +33,7 @@
           "name": "Bestiary Expanded",
           "sorting": "a",
           "packs":[
-            
+
           ]
          } 
       ]
@@ -42,7 +42,7 @@
   "packs": [
     {
       "name": "malexp_talents",
-      "label": "MalExp - Talents",
+      "label": "Expanded Talents",
       "path": "packs/malexp_talents",
       "type": "Item",
       "ownership": {
