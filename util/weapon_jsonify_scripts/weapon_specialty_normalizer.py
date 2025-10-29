@@ -38,7 +38,7 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
         specialisation = row.get("Specialisation", "")
         skill_name = normalize_skill_name(specialisation)
 
-        row["NormalizedSkill"] = json.dumps(skill_name, ensure_ascii=False)
+        row["NormalizedSkill"] = skill_name
         dictwriter.writerow(row)
 
 # Replace original file with updated version

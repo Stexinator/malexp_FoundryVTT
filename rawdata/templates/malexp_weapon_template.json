@@ -16,8 +16,16 @@
       "value": false,
       "force": false
     },
-    "damage" : {{JsonDamage}},
-    "traits" : {{JsonTraits}},
+    "damage": {
+      "base": "{{BaseDamage}}",
+      "characteristic": "{{StatDamage}}",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": [
+      ]
+    },
     "ammoCost": {{AmmoCost}} ,
     "attackType": "{{AttackType}}",
     "category" : "{{NormalizedCategory}}",
@@ -28,7 +36,7 @@
       "override": ""
     },
     "mag": {
-      "value":{{Mag}} ,
+      "value":{{NormalizedClipValue}},
       "current": null
     },
     "ammo": {
@@ -50,6 +58,6 @@
     "systemVersion": "3.1.0",
     "createdTime": 1756127136959,
     "modifiedTime": 1756127136959,
-    "lastModifiedBy": "bfVhf0cfdU0mWsuU",
+    "lastModifiedBy": "bfVhf0cfdU0mWsuU"
   }
 }

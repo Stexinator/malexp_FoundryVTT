@@ -18,34 +18,26 @@ with open(input_path, encoding="utf-8", newline='') as infile, \
     dictreader = csv.DictReader(infile)
     fieldnames = dictreader.fieldnames
 
-    if "JsonDamage" not in fieldnames:
-        fieldnames.append("JsonDamage")
+    if "BaseDamage" not in fieldnames:
+        fieldnames.append("BaseDamage")
+    if "StatDamage" not in fieldnames:
+        fieldnames.append("StatDamage")
 
     dictwriter = csv.DictWriter(outfile, fieldnames=fieldnames)
     dictwriter.writeheader()
 
     for row in dictreader:
         damage_raw = row.get("Dmg", "").strip()
-
-        # Default structure with all fields
-        damage_data = {
-            "base": "",
-            "characteristic": "",
-            "SL": False,
-            "ignoreAP": False
-        }
-
         match = damageRegEx.match(damage_raw)
         if match:
             base = match.group(1)
             char_mod = match.group(2)
 
             if base:
-                damage_data["base"] = base  # keep as string
+                row["BaseDamage"] = base
             if char_mod:
-                damage_data["characteristic"] = normalize_characteristic(char_mod)
+                row["StatDamage"] = normalize_characteristic(char_mod)
 
-        row["JsonDamage"] = json.dumps(damage_data, ensure_ascii=False)
         dictwriter.writerow(row)
 
 # Replace original file with updated version
