@@ -1,0 +1,72 @@
+{
+  "name": "Combi-Bolter",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Used by the Space Marines since before the Horus Heresy. The Combi-Bolter is essentially two Bolters attached together. While they are no longer produced in the Imperium, in favour of the more advanced successor: the Storm Bolter, some are still held as ancient relics. They are also commonly used by Chaos Space Marines and their forces.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 7,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 500,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "0F8uH3wLh7x13XMW",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!0F8uH3wLh7x13XMW"
+}

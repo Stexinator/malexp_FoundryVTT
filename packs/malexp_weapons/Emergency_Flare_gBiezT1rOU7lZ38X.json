@@ -1,0 +1,72 @@
+{
+  "name": "Emergency Flare",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Flares can be held or thrown, activated by a pull-cord fuse, or fired from specialised large-bore, single-shot pistols. While active and held, it eliminates the Dark and Poorly Lit Environmental Traits in the current Zone. A side-effect of a Flare’s light-emitting reaction is also an intense heat, they can inflict the Ablaze Condition if it makes contact with a flammable material. A Flare Pistol has the following profile: Pistol Specialisation, 4 Damage, Long Range, 1 Mag, 1 Enc, 5x the cost of a single Flare and the Loud Trait. If fired into the sky above, it eliminates the Poorly Lit Environmental Trait from all adjacent Zones its light shines upon, gradually falling to the ground by the end of the encounter.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 30,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "specialized",
+    "spec": "engineering",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "gBiezT1rOU7lZ38X",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!gBiezT1rOU7lZ38X"
+}

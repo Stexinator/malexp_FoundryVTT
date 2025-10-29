@@ -1,0 +1,72 @@
+{
+  "name": "Daemonblade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Each time the wielder of a Tainted Weapon spends or burns a Fate Point in relation to using the weapon, they gain 2 Corruption Points. Additionally, Tainted Weapons gain bonus damage equal to the wielder’s Corruption up to their Willpower Bonus (WilB). The greatest symbol of the Radical Inquisitor’s philosophy, to use the enemy against the enemy, a Daemonblade is a weapon bound with the essence of a powerful daemonic entity. Though the wardings and bindings placed upon the weapon render it less potent than the weapons wielded by Chaos, they are necessary, lest the wielder be driven insane from the insidious voices within the blade. No Daemonblade is like another, some so specific and potent that they have forged dark reputations. Daemonblades are weapons wielded by Radical Inquisitors, commonly of the Ordo Malleus. When a Daemonblade is first encountered, the GM should roll, or choose from, both the Features and the Quirks columns below (IPG 81) to describe the powers and nature of the weapon. Once per encounter, when a Daemonblade is drawn, the wielder must make a Challenging (+0) Discipline Test. If they fail, they gain 2 Corruption Points.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 1,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "W1ohPv3WhWQKDhkv",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!W1ohPv3WhWQKDhkv"
+}

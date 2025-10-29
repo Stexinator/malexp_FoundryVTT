@@ -1,0 +1,72 @@
+{
+  "name": "Volkanite Disintegrator",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Volkanite Disintegrator is an advanced form of Imperial Volkite weapons, pre-Imperial in origin and possessing considerable killing power, surpassing most man-portable armaments of its size. The Volkanite Disintegrator itself is based on lost STC designs that the Adeptus Mechanicus would give much to get back, but are just as likely to be considered heretekal if it proves they have been modified from their original templates.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 17,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "18",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 12,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "05i8QPjbtDMAy6RT",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!05i8QPjbtDMAy6RT"
+}

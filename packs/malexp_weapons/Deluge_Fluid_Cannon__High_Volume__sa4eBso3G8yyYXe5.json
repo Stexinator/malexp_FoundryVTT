@@ -1,0 +1,72 @@
+{
+  "name": "Deluge Fluid\nCannon\n(High Volume)",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Deluge Fluid Cannon can be switched between the two different profiles presented in the Ranged Weapon Table (pages 51–52) at the flick of a switch. To be clear, while it has the Flamer Trait (Imperium Maledictum, page 124) the cannon does not actually set anything ablaze. Ammunition is free if the cannon is hooked into an ample supply, such as a water pipeline or reservoir. Alternate chemical Ammunition costs 500 solars per tank and may Inflict one of the Ablaze, Blinded, Poisoned, Prone or Stunned Conditions. Sealed armour protects against these Conditions, as appropriate. Any Ammunition made from corrosive fluids causes the weapon to become Unstable.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 2500,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "flame",
+    "spec": "ordnance",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 5,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "sa4eBso3G8yyYXe5",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!sa4eBso3G8yyYXe5"
+}

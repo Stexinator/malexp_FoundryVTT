@@ -1,0 +1,72 @@
+{
+  "name": "Laslock",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "On worlds where the standard power pack pattern has been lost, laslocks are commonly used in place of lasguns. Often found in the hands of desperate and poorly equipped insurgents or renegades, laslocks might be scratch-built or modifications of antique or damaged las rifles brought back into service by scav- workshops and heretek forges. A laslock’s jury-rigged cells are temperamental things at best, but still potent, firing a more powerful discharge than that of a standard lasgun.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 400,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "7",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 100,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "qKdVW2HueVZ7AjXA",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!qKdVW2HueVZ7AjXA"
+}

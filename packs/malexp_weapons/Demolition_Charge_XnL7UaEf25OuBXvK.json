@@ -1,0 +1,72 @@
+{
+  "name": "Demolition Charge",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Repurposed industrial devices, demolition charges are most often heavy packs or containers filled with shaped explosives that must be placed against their target rather than thrown. They use a variety of delays, from standard det chords to electronic timers, to ensure the user is far enough away when they detonate. A Demolition Charge always comes with a linked Remote Detonator (see page 144).",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 50,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "16",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "grenadesExplosives",
+    "spec": "engineering",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "XnL7UaEf25OuBXvK",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!XnL7UaEf25OuBXvK"
+}

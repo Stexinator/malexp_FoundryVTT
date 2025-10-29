@@ -1,0 +1,72 @@
+{
+  "name": "Synaptic Disintegrator",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Any psyker who takes damage from a Synaptic Disintegrator suffers a -30 penalty to all Psychic Mastery tests for one round. Any target that takes damage to the head must pass a Hard (-20) Fortitude test or suffer the Stunned (Major) condition.\nMag, Enc, Cost, Avail speculated",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 0,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "",
+    "spec": "longGun",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "57Usyn4AsdFX6xUY",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!57Usyn4AsdFX6xUY"
+}

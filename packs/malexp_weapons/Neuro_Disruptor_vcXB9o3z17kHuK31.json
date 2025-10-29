@@ -1,0 +1,72 @@
+{
+  "name": "Neuro Disruptor",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The weapon appears to be a pointed mass of crystals emerging from a brass housing, lacking any obvious power source, or internal mechanisms. Rather, the weapon appears to use intricate circuitry and lattices to project a wave of particles to disrupt a target’s neural function, with little impingement from armour. Such weapons are exceedingly rare, and might only be found in the arsenal of Ordo Xenos Inquisitors.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 25,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "pistol",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 3,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "vcXB9o3z17kHuK31",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!vcXB9o3z17kHuK31"
+}

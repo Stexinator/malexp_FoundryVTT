@@ -1,0 +1,72 @@
+{
+  "name": "Proteus Neuro-Lash",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Fashioned in the shape of baroque multi-headed flails or ornate three-sectioned staves, the Proteus neurolashes are relics of the Age of Strife used by the most skilled warriors among the ranks of the Silent Sisters to subdue large numbers of assailants at once. The neural prongs that adorn the weapons generate a phase-conducted shock field which works to overload a victim's nervous system with bursts of intense agony, so that even the slightest touch leaves them helpless. For Post-Great Crusade games, they are worth 100,000 Solars and are Exotic.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 5,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "1",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "shock",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "zb8AzMK6dFGDjnOQ",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!zb8AzMK6dFGDjnOQ"
+}

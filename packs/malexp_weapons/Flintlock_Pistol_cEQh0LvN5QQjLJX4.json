@@ -1,0 +1,72 @@
+{
+  "name": "Flintlock Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Exceptionally basic in both construction and operation, flintlocks are surprisingly common throughout the Imperium due the level of prestige attached to them. Finely-crafted flintlocks pass through generations as heirlooms, and some fetch enormous prices among high nobles and Rogue Traders alike.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 150,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "7",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 15,
+    "attackType": "ranged",
+    "category": "specialized",
+    "spec": "pistol",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "cEQh0LvN5QQjLJX4",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!cEQh0LvN5QQjLJX4"
+}

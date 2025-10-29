@@ -1,0 +1,72 @@
+{
+  "name": "Autoch Bolter",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Autoch Pattern Bolt Weapons used by the Leagues of Votann are hand-held, ballistic, anti-personnel weapons used by their military forces that is very similar to the Imperial Bolter. It shares a common technological heritage from pre-Imperial Terra through STC databases, but are superior in almost every respect due to the employment of superlative materials and methods, and no fear of further innovating on ancient STC designs.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 6,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "9",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 600,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 5,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "bP6u4chA6f6qMRDz",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!bP6u4chA6f6qMRDz"
+}

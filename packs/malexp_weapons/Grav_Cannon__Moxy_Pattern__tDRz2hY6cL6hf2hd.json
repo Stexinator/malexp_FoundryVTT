@@ -1,0 +1,72 @@
+{
+  "name": "Grav Cannon 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "These exceedingly rare relics from the Dark Age of Technology are sacred devices jealously guarded by the Adeptus Mechanicus, who very rarely allow one outside of their armouries. Each fires arcane particles that disrupt the gravimetric fields surrounding the target, using the victim’s own armoured mass against him. The terrible, crushing force of the unnatural energies reduces targets to ruptured hulls and crumpled armoured forms. Most common are graviton guns, though grav pistols and grav combi- weapons can also be found in elite warbands and Mechanicum tech-heresy capture units.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 20,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 8,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "tDRz2hY6cL6hf2hd",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!tDRz2hY6cL6hf2hd"
+}

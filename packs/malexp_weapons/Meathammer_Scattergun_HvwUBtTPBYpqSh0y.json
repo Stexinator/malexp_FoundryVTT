@@ -1,0 +1,72 @@
+{
+  "name": "Meathammer Scattergun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "While shotguns can make brutally effective weapons, the gangers of Volg have created an even more savage variation to stamp their authority on those who dare to cross them. The “meat hammer” (so-named for its tendency to turn flesh into unrecognizable chunks), is a specially constructed, triple-barreled, open-choke shotgun that can all but destroy a living body with a single blast. Usually fired from point-blank range, a meat hammer hit is intended to kill, obliterate, and discourage others, and is a particularly loud and messy way to die. Although the meat hammer has a clip of “1” listed, it takes three shotgun shells to load.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 800,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "9",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 40,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "longGun",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "HvwUBtTPBYpqSh0y",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!HvwUBtTPBYpqSh0y"
+}

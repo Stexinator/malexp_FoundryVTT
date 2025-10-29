@@ -1,0 +1,72 @@
+{
+  "name": "Electrostatic Gauntlets (Ranged)",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Electrostatic Gauntlets are a type of weapon used by Adeptus Mechanicus Electro-Priests. Corpuscarii wear metal apparatuses around their wrists that channel tremendous electrostatic potential from dorsal generators. This can be discharged in a cascade of killing lightning. The Ranged fighting mode of the Electrostatic Gauntlets has a Mag value of 4, and restores 1 value per hour when not in use.\nUnder normal Imperial circumstances, all\nweapons worsen their availability by one step\n(Common to Scarce, etc) and increase their costs by\nsomewhere between 2 – 5x the original amount, as\nappropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 0,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "grenadesExplosives",
+    "spec": "pistol",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "HdDaeuLMrGc3cr7v",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!HdDaeuLMrGc3cr7v"
+}

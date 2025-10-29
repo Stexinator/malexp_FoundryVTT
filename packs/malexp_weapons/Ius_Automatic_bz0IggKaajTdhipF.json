@@ -1,0 +1,72 @@
+{
+  "name": "Ius Automatic",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Not even planetary lords can gainsay an Arbites Precinct commander’s choice of the weapons issued to his officers. Loadouts range from innocuous unpowered batons to full blown military weapons like bolters or krak grenades. However, there are certain weapons that are distributed to the Arbites by their Lord Marshals are a matter of course, and the Ius Pistol falls within this category in the Calixis Sector. Normally used as a backup weapon alongside the Arbites shotgun, the Ius is ubiquitous amongst both the Calixian Arbites and planetary enforcers of Scintilla. This weapon is a solid and unspectacular yet utterly reliable pistol, crafted by the gunsmiths of Gunmetal City to be as sturdy as possible. Typically issued to junior ranks within both organizations, this weapon is designed to be foolproof and to withstand punishment that would damage other firearms. Many of these humble weapons are thousands of years old, having served generations of lawmen and women in some of the toughest hives in the galaxy.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 400,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 20,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "bz0IggKaajTdhipF",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!bz0IggKaajTdhipF"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Heavy Flamer 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Large and terrifying, heavy flamers use two muzzles to create huge blasts of fire that can incinerate entire swaths of enemies in a single shot. Only the strongest can carry the weapon as well as the massive backpack of fuel it requires, but its presence has turned the tide against many a heretical attack.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 2,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "9",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 100,
+    "attackType": "ranged",
+    "category": "las",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 10,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "PYjcmDz3zDBB1x5g",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!PYjcmDz3zDBB1x5g"
+}

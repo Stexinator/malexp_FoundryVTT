@@ -1,0 +1,72 @@
+{
+  "name": "Breaching Charge",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Using a Breaching Charge requires a successful Routine (+20) Tech (Engineering or Security) Test to affix the device correctly. It can be set to detonate on the following round or by Remote Detonator (Imperium Maledictum, page 144) The blast typically destroys any door or Barrier Environmental Trait (Imperium Maledictum, page 204), creating an entry point suitable for any Medium Size or smaller character. Otherwise, the detonation deals 12 Damage, focused in the direction the charge is affixed (within Immediate Range). A Breaching Charge has the Loud, Rend (12), and Unstable Traits.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 150,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "las",
+    "spec": "ordnance",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "Kf6MUvTv1XCNV3Sp",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!Kf6MUvTv1XCNV3Sp"
+}

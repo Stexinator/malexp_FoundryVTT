@@ -1,0 +1,72 @@
+{
+  "name": "Volkite Caliver",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Volkite Caliver was a Volkite heavy weapon variant carried by Space Marine and Mechanicum infantry forces. A Volkite rifle with a devastating effect on flesh and bone, the Volkite Caliver was often employed by mobile Legion Tactical Support Squads, utilising firepower superior to that of the more common bolter that would eventually replace it as the standard infantry weapon of the Space Marine Legions.\nUnder normal Imperial circumstances, all\nweapons worsen their availability by one step\n(Common to Scarce, etc) and increase their costs by\nsomewhere between 2 – 5x the original amount, as\nappropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 17,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "14",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 9,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "azy2m75MUE3nbz9y",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!azy2m75MUE3nbz9y"
+}

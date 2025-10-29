@@ -1,0 +1,72 @@
+{
+  "name": "Autolas",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Not a common sight throughout the warzones of the Imperium, but still having a place within the Imperial Guard. The Autolas is in between a Heavy Stubber and Multi-Las in purpose, serving as a Squad Automatic Weapon for Imperial Guard regiments that prefer to maintain more las-oriented weapons and avoid the logistical complications of carrying solid ammunition for the Heavy Stubber, causing more than one important member of the Administratum to consider if it is a better choice than the Heavy Stubber.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 1,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 475,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "ordnance",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 10,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "vqJRhOxO7ntT1HLL",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!vqJRhOxO7ntT1HLL"
+}

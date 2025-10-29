@@ -1,0 +1,72 @@
+{
+  "name": "Iron-Eater Grenade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The rare iron-eater grenade houses an incredibly caustic acid, powerful enough to eat through even hardened plasteel in moments. Due to the potency of the acid, no readily available material is strong enough to feasibly house it in the form of a grenade. As such, the iron-eater grenade incorporates a weak grav-generator, which pushes against the acid from all sides, holding it scant millimetres from the grenade casing. Once primed, the user of the grenade has exactly three seconds before the grav-field shuts down, releasing the deadly contents. While very effective when properly employed, the use of an iron- eater grenade requires exact timing. Combined with the relative rarity of the grenade’s components, this difficulty ensures that iron-eaters are seldom employed outside of a few regiments that particularly favour them, such as the Savlar Chem-Dogs and the Ornite Skinners.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 175,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "thrown,Ordnance",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "JA3jVCacem6hC2fN",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!JA3jVCacem6hC2fN"
+}

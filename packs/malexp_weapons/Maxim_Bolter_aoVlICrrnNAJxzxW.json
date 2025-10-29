@@ -1,0 +1,72 @@
+{
+  "name": "Maxim Bolter",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A relatively compact sort-chambered rotary Bolter, these weapons were used by the Legio Cybernetica. They were capable of a much higher rate of fire than a standard Boltgun but their weight and recoil meant that they were only used by heavily augmented machines such as Battle-automata, Karkinos Servitors, or Myrmidons.\nUnder normal Imperial circumstances, all\nweapons worsen their availability by one step\n(Common to Scarce, etc) and increase their costs by\nsomewhere between 2 – 5x the original amount, as\nappropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 6,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 600,
+    "attackType": "ranged",
+    "category": "bolt",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "aoVlICrrnNAJxzxW",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!aoVlICrrnNAJxzxW"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "\"Serpentine\" Power Rapier",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Although blade weapons concealed in walking canes, rods of office and even umbrellas are far from uncommon among the Calixis Sector’s rich and powerful, few such weapons are as potent or as exclusive as the Serpentine. A thin rapier-like blade of the highest quality adamantine alloys and equipped with a miniaturised disruption field generator of great sophistication, it is a lightweight weapon and potentially devastating “surprise” for the unwary. Serpentines are custom made by commission and most take the form of elaborately carved walking sticks that disguise the weapon’s nature until activated. Famously, the notorious duellist and libertine, the Marchioness Alyssa Marque, formerly of House Llahst, is said to have a Serpentine variant concealed in the form of an exquisite lady’s fan that springs into lethal shape when triggered.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 8,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "pEncORNzHMpQaPOd",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!pEncORNzHMpQaPOd"
+}

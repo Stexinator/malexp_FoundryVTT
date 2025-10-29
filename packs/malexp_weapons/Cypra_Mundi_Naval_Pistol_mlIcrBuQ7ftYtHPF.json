@@ -1,0 +1,72 @@
+{
+  "name": "Cypra Mundi Naval Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Many varieties of naval pistol are in existence, the most well-known of which are those named for the Segment Fortresses of the Segmentae Majoris, such as the famous Cypra Mundi “Irontalon” pistol. Naval pistols are heavy, large-calibre autopistols characterised by their robust construction, which allows them to deliver solid blows in melee combat, should it prove necessary. Naval pistols use special fragmenting ammunition designed to inflict minimal damage to ship systems while having a devastating effect on unarmoured flesh. Naval pistols are only issued to crewmen of the Imperial Navy, and are never issued to the Imperial Guard. Nevertheless, Guardsmen often take naval pistols as mementos of a particular journey—when they can get away with it. Naval pistols hailing from famous ships or fleet bases hold great value.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 800,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 40,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "mlIcrBuQ7ftYtHPF",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!mlIcrBuQ7ftYtHPF"
+}

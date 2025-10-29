@@ -1,0 +1,72 @@
+{
+  "name": "Paragon Blade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A Paragon Blade is an ancient melee weapon first forged by unknown means during the Dark Age of Technology in pre-Imperial times. These blades were few in number even in the early days of the Horus Heresy and took a number of forms. The most common Paragon Blades are two-handed Power Weapons of extraordinary balance and durability. For Post-Great Crusade Games, their starting price will be at least 3,000,000 Solars and Exotic, but can go upwards of 5,000,000 Solars.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 40,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "HFZKKBRofgwFGxtq",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!HFZKKBRofgwFGxtq"
+}

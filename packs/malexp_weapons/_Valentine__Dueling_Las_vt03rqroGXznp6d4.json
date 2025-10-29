@@ -1,0 +1,72 @@
+{
+  "name": "\"Valentine\" Dueling Las",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A masterwork of the gunsmiths art, these weapons are handcrafted to the highest quality bt the Khayer- Addin and designed around the “single shot kil”, using a unique charge cartridge which is, in essence, a preloaded hot-shot pack. The single powerful blast is particularly effective against armored targets and belies the pistols elegant appearance. It holds a special reverence in folklore, known as “Valentines” after a near mythical gunslinger from Metallican history. Conversely, they are hated by the nobility for being “unsporting” due to being so lethal that it takes the skill out of dueling. The Valentine Dueling Las Pistol may not use special ammo and counts as being Ornamental.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 2,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 500,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "vt03rqroGXznp6d4",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!vt03rqroGXznp6d4"
+}

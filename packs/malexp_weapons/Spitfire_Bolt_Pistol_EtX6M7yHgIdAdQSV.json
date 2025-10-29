@@ -1,0 +1,72 @@
+{
+  "name": "Spitfire Bolt Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Little more than a crudely modified Luficer Pattern Flare Pistol, the Spitfire was an innovation that, according to popular myth, was devised by an outcast tech-adept in the Calixis Sector while she was exiled in order to combat local hive fauna. The weapon proved effective and popular, and even the most talented of the hives arms dealers have been turning them out ever since. This weapon may be equipped with any bolter ammo.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 3,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "7",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 300,
+    "attackType": "ranged",
+    "category": "bolt",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 2,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "EtX6M7yHgIdAdQSV",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!EtX6M7yHgIdAdQSV"
+}

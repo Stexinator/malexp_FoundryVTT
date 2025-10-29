@@ -1,0 +1,72 @@
+{
+  "name": "Hopper Mine",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Used to devastating effect on massed infantry formations or tight-packed hordes of xenos, they appear to be little more than a discarded heavy bolter shell or other roughly cylindrical pieces of detritus. Typically hidden in piles of debris along heavily traveled routes, they are equipped with sensitive bio- monitors that can sense even the weakest bio-signs within Immediate Range Once a bio-sign has been detected, a small shaped charge propels the hopper roughly two meters into the air where it detonates, spraying an area five meters (roughly a zone) across with lethal shrapnel.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 50,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "bolt",
+    "spec": "engineering",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "etUpHQwLUlCEaVWF",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!etUpHQwLUlCEaVWF"
+}

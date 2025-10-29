@@ -1,0 +1,72 @@
+{
+  "name": "Civitas Las Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A simple utility weapon, the Civitas is yet another model dating to the ancient Imperium. It is both somewhat bulky and inefficient, but popular due to ease of manufacture, longevity, and simplicity of maintenance. They are made on almost every major hive world for planetary defence and civilian hands in case of invasion. There are some examples that are family heirlooms across the Imperium, furnished in such ornamental patterns that they could be almost considered different weapons.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 200,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 50,
+    "attackType": "ranged",
+    "category": "",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "50q7nLiS4hRhSnu9",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!50q7nLiS4hRhSnu9"
+}

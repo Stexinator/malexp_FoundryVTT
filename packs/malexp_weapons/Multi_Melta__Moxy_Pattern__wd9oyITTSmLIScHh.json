@@ -1,0 +1,72 @@
+{
+  "name": "Multi-Melta 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The multi-melta is a larger type of melta weapon, usually only employed by the Adeptus Astartes or mounted upon Imperial vehicles. This huge weapon carries more fuel, fires at much longer ranges, and creates a larger blast area, cooking several square meters at a time. It also generates much more heat than its smaller cousins and most users must insulate themselves with protective clothing or armour.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 12,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "20",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 500,
+    "attackType": "ranged",
+    "category": "las",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 7,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "wd9oyITTSmLIScHh",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!wd9oyITTSmLIScHh"
+}

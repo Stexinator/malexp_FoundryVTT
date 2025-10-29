@@ -1,0 +1,72 @@
+{
+  "name": "Assault Lasgun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Designed purely for close range assaults, this gun is heavily reinforced and has a bayonet built into its short and heavy frame. Slots for two power packs are included so the gun can switch to a fresh pack with no reloading. Since the firefights it’s designed for are typically over long before two packs are exhausted, it serves its design perfectly. This pattern lasgun comes with a melee attachment already included.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 1,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 300,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 8,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "RU9gPgQWULDVm5qO",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!RU9gPgQWULDVm5qO"
+}

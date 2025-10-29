@@ -1,0 +1,72 @@
+{
+  "name": "Bolt Carbine 'Ceres Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Relatively uncommon weapons (the design was said to have been rescued from a space hulk and pressed into production specifically for the long-ago Angevin Crusade), Bolt Carbines are typically easier to wield than full-size Boltguns, due to lighter, simpler construction and a lower rate of fire. Without the multi-round burst ability common to many patterns of Bolter, a Bolt Carbine is incapable of the wholesale slaughter that characterizes volleys of bolter fire. However, their simpler design means that they misfire less frequently and are much easier to maintain.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 6,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 600,
+    "attackType": "ranged",
+    "category": "bolt",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 2,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "VPZXnqepZf1K76NH",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!VPZXnqepZf1K76NH"
+}

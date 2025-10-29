@@ -1,0 +1,72 @@
+{
+  "name": "Stiletto",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Devil’s Kiss is a long narrow blade that is quenched in blood during forging and sharpened only along the last five centimeters, leading to the needlelike tip. In the cities of Landunder, the Devil’s Kiss is also the name of a blade clan notorious for quiet and subtle killing, their victims bleeding out from a single, almost invisible, puncture wound. It is said that unless you are learning the fatal tricks of the clan, you will never see this deadly blade except with your own blood wetting it.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 80,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "las",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "NrPfpM6oN0NMjVrz",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!NrPfpM6oN0NMjVrz"
+}

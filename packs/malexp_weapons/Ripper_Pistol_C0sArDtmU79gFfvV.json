@@ -1,0 +1,72 @@
+{
+  "name": "Ripper Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The ripper pistol is a modified autopistol, firing armour piercing, poisoned rounds capable of dropping even the largest of foes or predators in a single burst. The diamantine tipped rounds fired by a ripper pistol can puncture carapace or even power armour as easily as the hide of a xenos beast. The rounds fragment after penetrating, inflicting severe damage to soft tissue while simultaneously releasing the toxic payload held within. If the high-caliber bullets do not bring down the target, the vicious cocktail of toxins surely will.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 1,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 150,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "C0sArDtmU79gFfvV",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!C0sArDtmU79gFfvV"
+}

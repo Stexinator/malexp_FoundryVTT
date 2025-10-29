@@ -1,0 +1,72 @@
+{
+  "name": "Psychotroke Grenade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Psychotroke Grenades fill the target Zone with hallucinogenic gas for five rounds. A creature starting their turn in the Zone, or who enters the Zone during their turn, must make a Very Hard (−30) Fortitude (Endurance) Test or suffer the hallucinogenic effect of the grenade for 1d10 rounds (roll on the Hallucinogenic Effects Table). Characters in Power Armour, other sealed armour, or wearing Filtration Plugs or similar equipment can apply their benefits to the Test.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 300,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "thrown,Ordnance",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "UUv6LUfiQxXY6egA",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!UUv6LUfiQxXY6egA"
+}

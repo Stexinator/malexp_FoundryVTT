@@ -1,0 +1,72 @@
+{
+  "name": "Perinetus Mk II Boltgun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The “Solo” is a bolter variant looked down on as heretical by some elements of the Adeptus Mechanicus, with much less sophisticated workings. It can only be fired in single-shot mode, trading automatic fire for a slightly longer range and more reliable mechanism, making it popular for PDF forces and insurrectionists alike. The weapon’s simple mechanism also has the added advantage of making it more accurate. This weapon may be equipped with any bolter ammo",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 6,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 600,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "longGun",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "TmatoXRICd9TXXBv",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!TmatoXRICd9TXXBv"
+}

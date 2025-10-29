@@ -1,0 +1,72 @@
+{
+  "name": "Graviton Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Graviton weapons deal additional Damage to a creature equal to their Armour. Any creature that takes damage from a Graviton weapon must make a Challenging (+0) Endurance Test or be rendered Prone. Targets wearing armour have −1 SL to this test, and armour with the Heavy Trait grants −2 SL instead.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 1,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 200,
+    "attackType": "ranged",
+    "category": "specialized",
+    "spec": "pistol",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 3,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "eBqbprhhvbBIbTV7",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!eBqbprhhvbBIbTV7"
+}

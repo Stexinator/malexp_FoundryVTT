@@ -1,0 +1,72 @@
+{
+  "name": "Armageddon Pattern Autogun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "First imported to the hive factories of Calixis to supply loyalist forces in the Tranch insurrection and the massive wave of mutant uprisings in Tranch’s Soot Warrens that followed, the Armageddon pattern proved itself both in the Tranch conflict and the decade of petty cult-inspired civil wars that plagued the Malfian sub in the following years. Still manufactured primarily on Malfi itself, the Armageddon is loud, lethal and uncomplicated; a heavy-hitter for an autogun, it fires large calibre solid slugs from a fifteen-round short box clip and can stand a phenomenal amount of abuse and keep firing. Since the uprisings, the Armageddon has become a staple of the arms trade in the Malfian sub and has started to make inroads into frontier areas where its stopping power and robust design rapidly gains converts.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 800,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 40,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "6Km9Hf0l95SsLPi5",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!6Km9Hf0l95SsLPi5"
+}

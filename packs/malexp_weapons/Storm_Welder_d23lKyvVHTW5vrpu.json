@@ -1,0 +1,72 @@
+{
+  "name": "Storm Welder",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Outside combat, a Storm Welder may, at the GM’s discretion, provide Advantage on Tech Tests where it might be an appropriate tool. Outside combat, a Storm Welder’s capacitor-magazine can be recharged by any standard Imperial power outlet. From empty to a full charge takes around 2 hours.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 1900,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "10",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 150,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "ordnance",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 9,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "d23lKyvVHTW5vrpu",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!d23lKyvVHTW5vrpu"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Power Stake",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Power weapons often deal high Damage and have the Penetrating Trait while active (Imperium Maledictum, page 127). The following weapons have additional abilities, noted at the end of their entries. A rod forged from a single piece of cold iron, one end is sharpened into a piecing stake, and the other wrought to house a potent power field generator. All along its length, the Power Stake is inscribed with warding runes and sigils. When the Power Stake strikes a creature with a Warp Threshold, it inflicts the Ablaze Condition upon them.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 10,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "M0xyQ3rSSmNAe7Bx",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!M0xyQ3rSSmNAe7Bx"
+}

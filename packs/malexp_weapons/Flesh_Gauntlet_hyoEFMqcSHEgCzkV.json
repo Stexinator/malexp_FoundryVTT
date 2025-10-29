@@ -1,0 +1,72 @@
+{
+  "name": "Flesh Gauntlet",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A Flesh Gauntlet is a truly nightmarish weapon, used by Dark Eldar Haemonculi, Wracks and Grotesques. It is a claw-like glove with syringe-like protrusions and vials. Even a small touch on an enemy will inject the victim with the most violent electro-steroids (some sort of universal growth hormone), which will eventually cause the victim to grow out of his or her skin. In the end there is only an undefined pile of heaving matter.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 5,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "3",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "",
+    "spec": "brawling",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "hyoEFMqcSHEgCzkV",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!hyoEFMqcSHEgCzkV"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Seismic Cannon\n(Short Wave\nPattern)",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Ditchdiggers gang, who serve as saboteurs for Lady Mizra Ivoseth’s rebellion, have developed infamy among the planetary governor’s forces, partly for their liberal use of the Seismic Cannon. While initially applied to damage transit routes and crack fortifications, from the moment the weapon was turned directly on the troops of the planetary governor, strict orders have been issued to Vigilite kill teams to extract or destroy any of these tools they come across.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 5
+    },
+    "cost": 6000,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 600,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "ordnance",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "GKskkVslLZxC7ttf",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!GKskkVslLZxC7ttf"
+}

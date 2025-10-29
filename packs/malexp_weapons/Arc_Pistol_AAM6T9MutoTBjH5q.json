@@ -1,0 +1,72 @@
+{
+  "name": "Arc Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A small pistol based on Arc Weapon technology and most commonly used by Skitarii Vanguard / Ranger Alphas.\nUnder normal Imperial circumstances, all\nweapons worsen their availability by one step\n(Common to Scarce, etc) and increase their costs by\nsomewhere between 2 – 5x the original amount, as\nappropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 6,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 200,
+    "attackType": "ranged",
+    "category": "",
+    "spec": "pistol",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 2,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "AAM6T9MutoTBjH5q",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!AAM6T9MutoTBjH5q"
+}

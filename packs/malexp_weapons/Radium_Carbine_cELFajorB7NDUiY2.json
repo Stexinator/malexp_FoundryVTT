@@ -1,0 +1,72 @@
+{
+  "name": "Radium Carbine",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Radium Carbine is a rapid-firing weapon capable of a punishing rate of fire, and serves as the main armament of the Skitarii Vanguard.\nUnder normal Imperial circumstances, all\nweapons worsen their availability by one step\n(Common to Scarce, etc) and increase their costs by\nsomewhere between 2 – 5x the original amount, as\nappropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 800,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 32,
+    "attackType": "ranged",
+    "category": "specialized",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 3,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "cELFajorB7NDUiY2",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!cELFajorB7NDUiY2"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Integration Cannon",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "An eccentric design of the Forge World Core Theta in the As kellon Sector, the cannon uses the principals of graviton weaponry, but with a wildly different effect. It projects a pulsing orb of gravitic energy that shatters on contact. A second later, the rapid mass increase draws anything nearby towards the center, crushing it in a gruesome manner. After being fired, the cannon creates a gravitic anomaly within the Zone it detonates in that persists for 1d5 rounds. Whenever a character begins their turn in this area, they must make a Hard (-20) Athletics (Might) or Reflexes (Dodge) test. If they fail, they are Immobilized until the end of their turn and suffer a single automatic hit to a randomly determined location for 12 damage with the Penetrating (4) Quality.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 18,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 950,
+    "attackType": "ranged",
+    "category": "specialized",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "iViBBRmODXIfvVv6",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!iViBBRmODXIfvVv6"
+}

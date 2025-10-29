@@ -1,0 +1,72 @@
+{
+  "name": "Nemesis Daemonhammer",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A Nemesis weapon is a ritually consecrated artefact of incredible power, its arcane might amplified with silver sigils and the psychic circuitry of a force weapon. They are said to be the bane of all daemons and the means of their creation is a closely held secret. Some believe that a single blow from a Nemesis weapon can send daemons howling back to the Warp. Daemons struck by a Nemesis Daemonhammer do not gain the benefit of any bonus die to their Armour value, such as that granted by the Lesser Daemon Trait. They are also Force Weapons and Power Weapons combined. When wielded by a character with the Psyker Talent, they deal additional Damage equal to the wielder’s current Warp Charge. This additional Damage is doubled if the target is a daemon. They also have the Penetrating Trait while activated (Imperium Maledictum, page 127). Additionally, when a Nemesis Daemonhammer strikes a daemon, it must make a Challenging (+0) Discipline Test or be utterly unmade.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 300,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "9fVxJrlzpytLz2zi",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!9fVxJrlzpytLz2zi"
+}

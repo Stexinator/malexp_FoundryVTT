@@ -1,0 +1,72 @@
+{
+  "name": "Chaos Spawn Hideous Mutation",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "When the Chaos Spawn makes a Hideous Mutation attack, roll a d10 and apply the Weapon Trait rolled:\n1-2 Razor Claw: Penetrating (5).\n3-4 Grasping Pseudopods: The target is Grappled by the Chaos Spawn.\n5-6 Toxic Haemorrhage: Inflict (Poisoned).\n7-8 Wretched Maw: Inflict (Bleeding).\n9-0 Thrashing Tentacles: Make a second Hideous Mutations attack.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 0,
+    "availability": "Special",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "",
+    "spec": "brawling",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "hoT68F5OHVe1sjgB",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!hoT68F5OHVe1sjgB"
+}

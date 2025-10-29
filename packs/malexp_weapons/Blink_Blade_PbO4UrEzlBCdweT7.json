@@ -1,0 +1,72 @@
+{
+  "name": "Blink-Blade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Swords of common or non-descript designs, doubleedged or single, as ornate or commonplace as any other blade across the galaxy. What makes the Blink-Blade special is how they are sheathed and unsheathed. The bearer does not carry a scabbard for such a weapon, as the blade is sheathed and unsheathed seemingly from thin air. These blades are unnaturally sharp, and the ability to make the blade disappear and reappear in a new grip or new orientation makes it difficult to defend against. The weapon is unusual and exceptionally heretical, therefore not commonly found among the Inquisition; instead acquired from exceedingly Radical sources. The strange nature of the weapons demands a bond with its wielder, an attunement with their mind, to sheathe and unsheathe it. A character that wishes to bond with the weapon can make a series of Difficult (−10) Willpower Tests, one per hour, and when the character has earned 5 SL, they have bonded to the weapon. The Blink-Blade is impossible to detect when sheathed. The wielder must succeed on a Challenging (+0) Discipline Test to unsheathe the weapon. If they fail, the weapon does not appear. When attacking with the blade, it ignores the Defensive quality of other weapons.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 8000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "3",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "PbO4UrEzlBCdweT7",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!PbO4UrEzlBCdweT7"
+}

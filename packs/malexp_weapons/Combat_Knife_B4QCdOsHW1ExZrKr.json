@@ -1,0 +1,72 @@
+{
+  "name": "Combat Knife",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "While the Departmento Munitorum takes every measure to ensure the compatibility of weapons, ammunition, and equipment, this proves quite infeasible in many cases. The Munitorum requirements for the knife included in a standard kit are broad enough that these weapons often reflect the culture of a regiment’s home world to a greater extent than more technologically advanced gear. Many regiments from feral worlds, death worlds, and other brutal home worlds favor a heavier, broader, or longer blade than more “civilized” worlds. Generically known as warknives or combat knives, some regiments are particularly known for these weapons, as in the case of the Devil’s Fang wielded by the jungle fighters of Catachan, or the “threshers” of the Mortressan Scythewind.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 75,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "1",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "B4QCdOsHW1ExZrKr",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!B4QCdOsHW1ExZrKr"
+}

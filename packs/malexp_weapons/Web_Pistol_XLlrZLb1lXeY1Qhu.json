@@ -1,0 +1,72 @@
+{
+  "name": "Web Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Web weapons, often called ‘glue guns’ fire a wide net of sticky fluid which constricts and solidifies on contact — making them perfect tools for Arbites officers or bounty hunters. Webbing material is designed to dissolve in minutes or hours after use. Webbers inflict the Restrained (Minor) Condition (page 357), or the Restrained (Major) Condition if the final result of the Ranged Test is at least +4 SL.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 1300,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 130,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "pistol",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 3,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "XLlrZLb1lXeY1Qhu",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!XLlrZLb1lXeY1Qhu"
+}

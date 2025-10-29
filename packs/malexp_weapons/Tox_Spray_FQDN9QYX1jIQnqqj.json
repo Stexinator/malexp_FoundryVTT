@@ -1,0 +1,72 @@
+{
+  "name": "Tox Spray",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The tox spray is a terrifying weapon found in the hands of the worst kind of gang scum in the most polluted hive sumps. The weapon uses an unholy mixture of highly corrosive industrial residue and toxic waste contained under high pressure, unleashed through a jury-rigged spray gun. The effects of the mixture on flesh are truly horrific and all but the best armour is little protection from the burning poison.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 200,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 10,
+    "attackType": "ranged",
+    "category": "",
+    "spec": "longGun",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "FQDN9QYX1jIQnqqj",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!FQDN9QYX1jIQnqqj"
+}

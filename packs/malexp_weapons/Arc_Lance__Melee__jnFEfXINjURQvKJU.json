@@ -1,0 +1,72 @@
+{
+  "name": "Arc Lance (Melee)",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Wielded by Secutarii Hoplites, this powerful spear is akin to the Arc Mauls used by their Skitarii Legion counterparts as well as the far larger version wielded by Cerastus Knight Lancers. The arc lance inflicts damage through short range blasts of coruscating energy augmented by an inversion field mounted in the paired Mag-inverter Shield. Thus the weapon is capable of both making a melee and projectile attack. Under normal Imperial circumstances, all weapons worsen their availability by one step (Common to Scarce, etc) and increase their costs by somewhere between 2 – 5x the original amount, as appropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 0,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "immediate",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "jnFEfXINjURQvKJU",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!jnFEfXINjURQvKJU"
+}

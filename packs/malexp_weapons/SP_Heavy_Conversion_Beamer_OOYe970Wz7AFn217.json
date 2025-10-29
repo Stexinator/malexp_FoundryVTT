@@ -1,0 +1,72 @@
+{
+  "name": "SP Heavy Conversion Beamer",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "An incredibly rare and deadly antimatter-based weapon developed during the pre-Imperial Dark Age of Technology. It fires a directed energy beam of antimatter particles which cause a matter-antimatter explosion in its target. It is a powerful, long-ranged weapon whose beam intensity becomes stronger the farther the range to its target, up to a terminal distance point where the beam loses coherence.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 30,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "20",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "ordnance",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 8,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "OOYe970Wz7AFn217",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!OOYe970Wz7AFn217"
+}

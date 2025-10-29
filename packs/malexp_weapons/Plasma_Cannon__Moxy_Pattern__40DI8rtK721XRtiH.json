@@ -1,0 +1,72 @@
+{
+  "name": "Plasma Cannon 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The largest man-portable plasma weapon is the plasma cannon or heavy plasma gun, which is also seen in service on some Imperial war machines. Rather than using attached flasks, the wielder wears a large backpack containing the weapon’s store of hydrogen fuel. This weapon has a much longer range and ammunition supply, and its violent discharges, hurled like miniature suns from the barrel, have a large impact area. It can also be fired in a special Supercharge mode that exhausts more fuel but provides an even larger blast of heat on impact, creating a fireball capable of destroying heavily armoured targets.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 10,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 660,
+    "attackType": "ranged",
+    "category": "las",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 18,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "40DI8rtK721XRtiH",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!40DI8rtK721XRtiH"
+}

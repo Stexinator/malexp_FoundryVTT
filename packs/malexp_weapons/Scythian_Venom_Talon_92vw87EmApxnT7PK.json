@@ -1,0 +1,72 @@
+{
+  "name": "Scythian Venom Talon",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "This dagger-like blade can deliver such a potent poison that it can incapacitate foes with a single scratch. Despite its martial features, a wicked curving blade, and slotted blade-catchers above the cross-guard, the weapon is obviously of xenos design. One would be foolish to ask why, or how, such a weapon has fallen in among the wargear of the Ordo Xenos. The Scythian Venom Talon has the Inflict (Bleeding) and Inflict (Poisoned) Traits.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 5000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "2",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "92vw87EmApxnT7PK",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!92vw87EmApxnT7PK"
+}

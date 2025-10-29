@@ -1,0 +1,72 @@
+{
+  "name": "Gas Torch Flamer",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The “torch” or “gas-lighter”, as most call it, is not strictly a weapon but an industrial tool that uses incandescent vapour to burn debris and clear the fungal growths that plague many hive duct-systems. The “gas-lighter” also serves well enough as a flamer for many low-rent hive gangs who can’t afford the real thing and is frequently found in the hands of insurrectionists. The “torch” is nowhere near as effective (or stable) as a true flamer, but it is easy to procure and the wash of burning gas can still crisp flesh to cinders.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 100,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 5,
+    "attackType": "ranged",
+    "category": "flame",
+    "spec": "longGun",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "klbHHvMoAp2X6oau",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!klbHHvMoAp2X6oau"
+}

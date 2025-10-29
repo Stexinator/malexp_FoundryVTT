@@ -1,0 +1,72 @@
+{
+  "name": "RX-9 'Forgestamp' Pattern Rivet Gun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Typically only issued to the highly augmented labourers with the strength to carry them, the Forgestamp Rivet Gun pattern auto-loads heated rivets. The red-hot rivets are hammered more easily into secure shape, allowing for much faster work, but are often proven fire hazards when wielded by untrained hands. At the GM’s discretion, any Rivet Gun may provide an Advantage to Tech Tests where such a tool would be useful.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 3400,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 60,
+    "attackType": "ranged",
+    "category": "",
+    "spec": "longGun",
+    "range": "short",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 10,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "Ia23yXJvEMLovsSL",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!Ia23yXJvEMLovsSL"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Omnissian Axe",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A holy icon of the Cult Mechanicus, the Omnissian axe or glaive is granted to adepts who have shown their faith to the Machine God in battle. No common weapon, it is forged with the finest materials and using secrets of tempering and field generation. These fearsome weapons have no equal amongst power weapons. Saw-toothed and marked with sacred equations, to the followers of the Machine God, the bearer of an Omnisian glaive is a most blessed figure, a furious incarnation of the Machine God’s power in war. The bearer of an Omnissian Axe receives a +1SL bonus to Interaction Tests involving followers of the Machine God. The Omnissian Axe also functions as a multi-tool. An Omnissian Axe may never be bought or deliberately obtained—it is gifted only to tech-priests by their superiors.\nUnder normal Imperial circumstances, all\nweapons worsen their availability by one step\n(Common to Scarce, etc) and increase their costs by\nsomewhere between 2 – 5x the original amount, as\nappropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 0,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "9BygcbxgPKzzOsQt",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!9BygcbxgPKzzOsQt"
+}

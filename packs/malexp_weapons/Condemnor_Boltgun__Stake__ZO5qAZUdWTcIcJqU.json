@@ -1,0 +1,72 @@
+{
+  "name": "Condemnor Boltgun (Stake)",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "While the Boltgun element easily tears common foes asunder, the potent stakes fired from the crossbow armature vary in effects. However, they all effectively thwart the foul warp magics and energies of psykers and daemons. The Condemnor Boltgun is an iconic weapon of the Ordo Hereticus. It has two firing profiles, as noted in the Ranged Weapons Table. The Stake Crossbow attached can be fitted with specialised Stake ammunition (page 88) and gains additional effects from them.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 100,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "bolt",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "ZO5qAZUdWTcIcJqU",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!ZO5qAZUdWTcIcJqU"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Macharian\n‘Sinbreaker’\nShrine Shotgun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "It is said that the machine spirit of the ‘Sinbreaker’ inherits the fervour and zeal of the Macharian history and becomes unwaveringly eager to mete out punishment against heretic and abomination alike, though the worshippers of the Machine God would likely refute the assertion. ‘Sinbreaker’ shotguns were seen throughout the fight against Cardinal Rayne, where the overwhelming but inefficient numbers of the heretical cardinal were devastated in close-quarters firefights. The ‘Sinbreaker’ remains the favoured weapon in purification teams who descend into the mouldering depths of Macharia, hunting Infractionists and vile heretics.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 600,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 10,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 10,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "rnChzM2KSpRd7l9D",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!rnChzM2KSpRd7l9D"
+}

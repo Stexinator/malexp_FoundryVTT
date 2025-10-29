@@ -1,0 +1,72 @@
+{
+  "name": "Hell Rifle",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Despite the antique and ornate appearance of the rifle, it is a complex and tainted weapon, utilising warded arrays and galvanic impellers to fire rending shards of daemonic matter. The weapon is one of concern for puritanical elements of the Inquisition, and there are those among the Adeptus Mechanicus who are eager to recover one to determine how exactly they work. The Hellrifle is a weapon favoured by Radical Inquisitors of the Ordo Malleus.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 10,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "10",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "specialized",
+    "spec": "longGun",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "JFKQiEKlnMp8FAuA",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!JFKQiEKlnMp8FAuA"
+}

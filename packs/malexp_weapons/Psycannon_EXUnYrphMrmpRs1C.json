@@ -1,0 +1,72 @@
+{
+  "name": "Psycannon",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A Psycannon is a Bolt Weapon designed to cut through psykers, daemons, and other warp entities. In addition to the normal bonuses provided by its Psybolt ammunition, ranged attacks made with this weapon ignore any armour provided by psychic powers, daemonic Traits, or other effects. The benefits of the weapon’s gravitic stabiliser are already included in its profile — it would otherwise suffer from the Heavy Trait. A Psycannon can be loaded with ordinary Heavy Bolter ammunition (900 Solars) but many would see such an act as sacrilege and misuse of such a precious weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 240,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "EXUnYrphMrmpRs1C",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!EXUnYrphMrmpRs1C"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Nail Bomb",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The confines and dense crowds of a hive make weapons such as frag grenades perfectly suited to sowing terror and destruction there. For this reason, anti-personnel devices are usually heavily proscribed, but that doesn’t stop the more inventive criminal scum from fashioning their own. The nail bomb presented here is an explosive charge packed around with rusted nails, metal spoil, crushed glass, and other assorted nastiness, all packed into a convenient length of pipe or an old food canister and fitted with a home- made fuse that hopefully is reliable enough not to kill the user.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 20,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "las",
+    "spec": "thrown,Ordnance",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "WhNSDylWi6JkXnSq",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!WhNSDylWi6JkXnSq"
+}

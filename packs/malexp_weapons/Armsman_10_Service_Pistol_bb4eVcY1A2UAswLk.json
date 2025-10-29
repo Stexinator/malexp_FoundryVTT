@@ -1,0 +1,72 @@
+{
+  "name": "Armsman-10 Service Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "This bulky and intimidating high-capacity stub pistol is a common sidearm for enforcers, household troops, and mercenaries throughout the Calixis Sector. A copy of the more traditional Scipio pattern Naval Pistol, the Armsman has been mass-produced for centuries to arm the enforcers of Calixis’ capital world and many others. Most are manufactured with the sigil or cipher of the contracted buyer stamped into their grips, examples without such a mark are often considered unlucky by the superstitious unlucky",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 375,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 18,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 3,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "bb4eVcY1A2UAswLk",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!bb4eVcY1A2UAswLk"
+}

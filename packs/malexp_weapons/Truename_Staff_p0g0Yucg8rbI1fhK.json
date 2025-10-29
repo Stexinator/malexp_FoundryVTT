@@ -1,0 +1,72 @@
+{
+  "name": "Truename Staff",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Created by members of the Ordo Malleus, a Truename Staff is a length of cold iron etched with warding runes and sigils engraved with the names of nine and ninety powerful Daemons. Consecrated in elaborate rituals of daemon slaying and smiting, each strike of the weapon capable of sundering any daemonic entity. Daemons struck by a Truename Staff do not gain the benefit of any bonus die to their Armour value, such as that granted by the Lesser Daemon Trait. Additionally, when a Truename Staff strikes a daemon whose name has been etched upon its haft, that daemon must make a Challenging (+0) Discipline Test or be utterly unmade. Some Truename Staves can be Force Weapons. When wielded by a character with the Psyker Talent, it deals additional Damage equal to their current Warp Charge (Imperium Maledictum, page 127). This additional Damage is doubled if the target is a daemon. Add 20% to the cost of Force Weapon Truename Staffs.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 200,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "2",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "p0g0Yucg8rbI1fhK",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!p0g0Yucg8rbI1fhK"
+}

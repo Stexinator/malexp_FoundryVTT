@@ -1,0 +1,72 @@
+{
+  "name": "Executioner Greatblade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Executioner Greatblades (or simply Execution Blades) are two-handed Power Swords that used by the Sisters of Silence and are wonders of the swordsmith's art. Each Greatblade is perfectly weighted for the martial style of its wielder and once the Sisters are schooled in their use, they strike with the speed of a duellist combined with the killing might of a veteran executioner. The blades are edged with diamond- hard silica glass, enabling a skilled strike to pierce the finest armour For Post-Great Crusade Games, they are worth 1,200,000 Solars and are Exotic.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 60,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "qoGcHrUYjUNFShZa",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!qoGcHrUYjUNFShZa"
+}

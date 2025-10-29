@@ -1,0 +1,72 @@
+{
+  "name": "Krak Grenade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Krak grenades and missiles are found throughout the Imperium war machine. They are designed for armour penetration and overwhelm most personal protective gear with ease. Krak rounds also excel at blowing apart bulkheads, vehicle hulls, and fortifications, leaving those inside exposed and vulnerable. Krak munitions have high damage and the Penetrating Trait, but a limited radius.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 60,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "specialized",
+    "spec": "thrown,Ordnance",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "cusNVbZMJN6LUHFR",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!cusNVbZMJN6LUHFR"
+}

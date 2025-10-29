@@ -1,0 +1,72 @@
+{
+  "name": "EtaCarn Plasma Beamer",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The EtaCarn Plasma Weapons used by the Leagues and all their variants are made from the same common technological ancestor as Imperial plasma weapons, although far less prone to the explosive instability that supercharged Imperial plasma weaponry possesses. On a fumble when attacking with EtaCarn Plasma Weapons, on a result of 8+ on the Fumble Table (pg. 355 CRB), the weapon self-destructs instead, typically dealing its Damage to the arm wielding the weapon or a random arm if the weapon is two-handed.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 12,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "12",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "las",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 14,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "Aig2u08VuBfaMdJY",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!Aig2u08VuBfaMdJY"
+}

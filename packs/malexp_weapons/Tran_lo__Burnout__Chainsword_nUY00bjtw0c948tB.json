@@ -1,0 +1,72 @@
+{
+  "name": "Tran'lo 'Burnout' Chainsword",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Chain weapons have the Rend and Loud Traits while they are activated. Additionally, while active, chain weapons impose Disadvantage on Stealth Tests. \nWhen a character wielding the Burnout Chainsword deals damage, they can choose to pull its secondary activation trigger to deal an extra +3 Damage with the attack. This uses up the Chainsword remaining battery power, sometimes damaging the chain mechanism; the weapon gains the Ineffective Trait until it is repaired. The mechanism for activating this feature is often unwieldy. Fumbling with this weapon in any capacity on a roll of 88, 99, or 00 causes it to activate by accident.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 650,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "3",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "nUY00bjtw0c948tB",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!nUY00bjtw0c948tB"
+}

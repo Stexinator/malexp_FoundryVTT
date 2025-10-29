@@ -1,0 +1,72 @@
+{
+  "name": "Stingray",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Stingrays emit a powerful microwave beam in a wide arc. The radiation causes immediate blistering heat on exposed skin (similar to a powerful insect sting, thus giving its name) with no danger of harming most other objects. Stingrays are ideal weapons for when crewmen need to repel unruly crew (or passengers). Even though a Stingray rifle has the Flamer trait it cannot set things on fire.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 500,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "7",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 25,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "GdFSZgoZeiCiHwQE",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!GdFSZgoZeiCiHwQE"
+}

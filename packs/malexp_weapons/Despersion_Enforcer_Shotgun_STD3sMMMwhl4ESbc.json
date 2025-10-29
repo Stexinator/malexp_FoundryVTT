@@ -1,0 +1,72 @@
+{
+  "name": "Despersion Enforcer Shotgun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Departmento Munitorum-issued combat shotguns that fill Vigilite armouries across the sector have been upgraded to include a spiked, underslung Grapnel Launcher (Imperium Maledictum, Page 148), allowing the enforcers to traverse the rusting ventilation shafts and lethal drops common to the hives of Desperion as they track their criminal quarry. The spiked grapple can also be used to incapacitate a fleeing suspect, although the resulting blood loss from the sizable rent it produces in its target lessens the chance of them being captured alive. Another tactic used by the more daring officers is to launch themselves at speed toward their foes, utilising the shock and awe of their momentum to eliminate threats in the tumult of their offence.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 950,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 15,
+    "attackType": "ranged",
+    "category": "shock",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 12,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "STD3sMMMwhl4ESbc",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!STD3sMMMwhl4ESbc"
+}

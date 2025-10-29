@@ -1,0 +1,72 @@
+{
+  "name": "Lasrifle",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Kalibrax V-I Pattern Lasrifle was the standard weapon of Imperial Army Solar Auxilia during the Great Crusade and Horus Heresy. Of a higher quality than standard Lasguns or Lascarbines, it’s notable for its heavily reinforced energy transfer capacitors, overall durability, and superior heat dissipation qualities. The Kalibrax could also easily handle a variety of modifications and augmentative systems, such as bolt- collimator arrays and induction blast-chargers. For Post-Great Crusade games, they are worth 20,000 Solars and are Exotic.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 1,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "7",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 200,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 8,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "QRV4KeRIKohyM2ZM",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!QRV4KeRIKohyM2ZM"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Heavy Webber 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The advanced design for this heavy webber is held by the Adeptus Mechanicus of the Lathe System and the weapons themselves are produced only under granted license by the Hax-Orthlack manufactorums on the sector capital world of Scintilla. Standard issue for Adeptus Arbites capture units across the Calixis Sector and carried in the armories of the better- equipped local law enforcement units, such as the Magistratum of Scintilla, the weapon takes the form of a heavy, wide-barreled projector fed from a large canister worn on the user’s back. The weapon’s use is often reserved for when large numbers of targets are to be taken alive for interrogation or when important bystanders are caught in the line of fire.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 2,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 200,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "dbygR7b5Lp3bGDnR",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!dbygR7b5Lp3bGDnR"
+}

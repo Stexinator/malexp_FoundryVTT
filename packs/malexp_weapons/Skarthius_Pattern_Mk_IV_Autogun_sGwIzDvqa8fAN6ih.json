@@ -1,0 +1,72 @@
+{
+  "name": "Skarthius Pattern Mk IV Autogun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The compact Skarthius IV Autogun was designed for close-quarters combat and has seen use in aggressive firefights among labyrinthine hive depths and boarding actions amidst the void. Its high fire rate and low calibre make it safe to fire within pressurised environments, and the sturdy frame is manufactured with a folding stock by default. The simple but robust frame is highly modular, and it is common to find the Skarthius IV deployed with a variety of modifications.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 700,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 35,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 7,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "sGwIzDvqa8fAN6ih",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!sGwIzDvqa8fAN6ih"
+}

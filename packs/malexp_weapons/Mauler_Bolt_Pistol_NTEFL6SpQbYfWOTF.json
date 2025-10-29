@@ -1,0 +1,72 @@
+{
+  "name": "Mauler Bolt Pistol",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A singular weapon, the Mauler is a finely made bolt pistol designed for normal human hands. Extremely sophisticated in design and made from the finest alloys and components, each Mauler is handmade and forged by the servitor-savants of the Cinder Crag in the Calixis Sector. Each weapon is uniquely tailored to the commissioner's exact biometric data and is as implacably lethal as it is an artefact. Mauler Bolt Pistols acquired normally do not benefit from biometric security, and may be used by anyone. Mauler Pistols made by commission cost twice the listed price and count as Mastercrafted weapons when used by the hand they were designed for",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 4,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 480,
+    "attackType": "ranged",
+    "category": "bolt",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 2,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "NTEFL6SpQbYfWOTF",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!NTEFL6SpQbYfWOTF"
+}

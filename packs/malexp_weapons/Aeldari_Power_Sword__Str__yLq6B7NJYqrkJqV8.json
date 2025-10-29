@@ -1,0 +1,72 @@
+{
+  "name": "Aeldari Power Sword (Str)",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Power weapons often deal high Damage and have the Penetrating Trait while active (Imperium Maledictum, page 127). The following weapons have additional abilities, noted at the end of their entries. Lightweight and elegant, the power weapons of the Aeldari are like, and yet unlike, the power weapons of the Imperium. They typically possess a single cutting edge, so they are keenly balanced and effortless to use. They are sometimes seen as a symbol of status among the Ordo Xenos, looted from defeated xenos, or in more rare cases, a gift from unlikely allies Aeldari Power Swords are always Lightweight and are so precisely balanced that the wielder can use either their Strength Bonus (StrB) or Agility Bonus (AgB) when dealing damage..",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 150,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "yLq6B7NJYqrkJqV8",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!yLq6B7NJYqrkJqV8"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Minerva-Aegis Lascarbine",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Popular with notable mercenary companies and private guild armsmen, the Minerva-Aegis is a sophisticated Lascarbine that features an unusually high cycle-charge chamber allowing a more rapid extinguishing of enemies with lasbolt. Fruit of the mythical Aegis Fragment discovered by the Adeptus Mechanicus in the Calixis Sector; the high-grade materials needed for its production mean its cost is significantly more than standard Lascarbines. It is an undoubted sign of discerning professionalism in hired guns to be wielding a Minerva-Aegis.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 1,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 250,
+    "attackType": "ranged",
+    "category": "bolt",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 8,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "j9KzeVjqyWckJ9XT",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!j9KzeVjqyWckJ9XT"
+}

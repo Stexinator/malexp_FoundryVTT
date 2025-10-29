@@ -1,0 +1,72 @@
+{
+  "name": "Tainted Blade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Each time the wielder of a Tainted Weapon spends or burns a Fate Point in relation to using the weapon, they gain 2 Corruption Points. Additionally, Tainted Weapons gain bonus damage equal to the wielder’s Corruption up to their Willpower Bonus (WilB). Controversial weapons, tainted by warp-magic or daemonic essence. They might be weapons once bound with a daemonic entity, now purged, or marked with runes of Chaos. Though less potent than true Daemonblades, Tainted Blades are stained and seething with warp energies, each strike wreaking havoc upon realspace as much as the wielder’s foes. The Tainted Blade is a Tainted Weapon, used by Radicals and heretics of the Ordo Malleus.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 1,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "ZGCfcNmPQjONdBIf",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!ZGCfcNmPQjONdBIf"
+}

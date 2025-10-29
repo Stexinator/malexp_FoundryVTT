@@ -1,0 +1,72 @@
+{
+  "name": "Mortar",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "While relatively simple in construction, this weapon provides a medium-range attack capability, particularly against targets behind cover or out of sight, as it fires its explosive rounds in a high, indirect arc. Mortar shells explode with a strong blast effect and also suppress enemy fire as the targets are forced to dive for protective cover. Many are operated in teams, with one manning the weapon whilst the other acts as a spotter to provide targeting information and often communicating the data via voxlink. As an action, the Mortar can be taken apart into two pieces of 2 Encumbrance each in order to be more easily carried",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 1,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "ordnance",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "KSiJEHTRbz0RWwLK",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!KSiJEHTRbz0RWwLK"
+}

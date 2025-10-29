@@ -1,0 +1,72 @@
+{
+  "name": "Daemonhammer",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "An anointed Warhammer forged from precious metals, its haft engraved with sigils and wards, wrapped in blessed leathers and purity seals. The head of a Daemonhammer is stamped with the blazing symbol of the Inquisition, each smiting blow resounding like a thunderclap, its potent wards sundering the unnatural flesh of daemonic entities. Daemons struck by a Daemonhammer do not gain the benefit of any bonus die to their Armour value, such as that granted by the Lesser Daemon Trait. A Daemonhammer may also be a Power Weapon, gaining the Penetrating Trait against all enemies, at a value equal to its base damage bonus (Imperium Maledictum, page 127). Add 20% to the cost of Power Weapon Daemonhammers.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 200,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "mwcLFqbuxVfwGGvW",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!mwcLFqbuxVfwGGvW"
+}

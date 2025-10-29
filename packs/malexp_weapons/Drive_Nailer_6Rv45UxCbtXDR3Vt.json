@@ -1,0 +1,72 @@
+{
+  "name": "Drive Nailer",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "One of the first weapons to appear in the hands of heretics in a hive uprising, the drive nailer is simply a high-power nail or rivet-driving gun of the type common to the millions who toil in hive construction and reclamation crews across the Imperium. With its power setting turned up to maximum and its safety features disabled, the drive nailer can make a messy but effective weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 100,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "4",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 10,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 3,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "6Rv45UxCbtXDR3Vt",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!6Rv45UxCbtXDR3Vt"
+}

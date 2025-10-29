@@ -1,0 +1,72 @@
+{
+  "name": "Incendiary Charge",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Incendiary Charges are heavy and unwieldy, and require careful placement. They can be used with a Remote Detonator (Imperium Maledictum, page 144), but other activation methods are common, such as electronic or clockwork timers, Militarum standard det cords, or even blackpowder fuses in less technologically affluent markets. All characters within the same Zone are set Ablaze, whilst those in Immediate Range of the device also take the listed Damage.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 100,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "grenadesExplosives",
+    "spec": "engineering",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "tOoKExxReOTyjvhy",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!tOoKExxReOTyjvhy"
+}

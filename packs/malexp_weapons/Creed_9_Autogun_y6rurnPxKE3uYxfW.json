@@ -1,0 +1,72 @@
+{
+  "name": "Creed-9 Autogun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Creed-9 is a compact autogun designed for close- quarter warfare and constructed to a local variant of a long-established design intended for Naval boarding troopers. Made using lightweight materials and fitted with a telescopic stock, the Creed-9 is not much larger than a military autopistol in size and is the favoured weapon for many enforcer kill squads, as well as the private armies of numerous noble houses and Chartist Captains. Because of this “elite” role, it’s common to see Creeds sporting numerous upgrades and modifications such as red-dot sights, expanded mag-ports and fire selectors.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 1,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 50,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 8,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "y6rurnPxKE3uYxfW",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!y6rurnPxKE3uYxfW"
+}

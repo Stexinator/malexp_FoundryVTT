@@ -1,0 +1,72 @@
+{
+  "name": "Impaler",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Carried by the most slab-muscled of gang heavies and other degenerate scum, Impalers (also known as the “harpoon cannon”), as primitive as they are, can still launch a spear of metal capable of punching straight through a human body with ease. Usually made by desperate and ill-equipped hive or mutant gangs from discarded industrial springs and high- tensile cable, the harpoons used are often little more than a length of metal piping with its tip ground to a wicked point. Up-hive gunslingers and enforcers may scoff at the crudity of these weapons but sometimes find that it is much harder to laugh when pinned to a wall by a meter-long spear.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 400,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "10",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 20,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "ordnance",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "L8MJdkXfg78w6Sch",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!L8MJdkXfg78w6Sch"
+}

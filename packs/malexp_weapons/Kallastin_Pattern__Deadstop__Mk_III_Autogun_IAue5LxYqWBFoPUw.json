@@ -1,0 +1,72 @@
+{
+  "name": "Kallastin Pattern ‘Deadstop’ Mk III\nAutogun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Mk III is a relatively new improvement upon the Deadstop pattern of autogun. Large numbers of the autogun have been distributed to the Kallastin Lancers, and there are rumours that such weapons are being constantly tested and prepared for a return of the dreaded green tide. Where the muscled masses of rampaging Orks might absorb large amounts of solid slugs, precise shots at critical locations with the largerthan- average calibre of an autogun projectile might prove more efficient in stopping the green tide.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 700,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "7",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 30,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 5,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "IAue5LxYqWBFoPUw",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!IAue5LxYqWBFoPUw"
+}

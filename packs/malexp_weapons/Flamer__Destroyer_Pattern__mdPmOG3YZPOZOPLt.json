@@ -1,0 +1,72 @@
+{
+  "name": "Flamer 'Destroyer Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A weapon produced only by special commission by the artisan-masters of Cadence from the Calixis Sector, the Destroyer is a highly advanced pattern of hand flamer that uses force-compression technology similar to that of plasma weaponry to create a superheated thermal-incandescent blat that burns far hotter and with greater fuel efficiency than that of a usual flamer. If the stories are to be believed, the first commissioner of this weapon none other than a Legendary Ordo Xenos Inquisitor named Ark-Ashten, and this legend has led to a greater belief of its abilities.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 1,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 75,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 5,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "mdPmOG3YZPOZOPLt",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!mdPmOG3YZPOZOPLt"
+}

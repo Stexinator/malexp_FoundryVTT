@@ -1,0 +1,72 @@
+{
+  "name": "Great Crusade Psyk-Out Grenade 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Outwardly, a Psyk-Out Grenade looks much like one of the Frag Grenades in use by the many military forces of the Imperium. Its rarity and potency stems from the special additive that is laced within its explosive charge. Psyk-Out grenades make targeted zones Heavily Obscured for 3 rounds. This duration can be extended or shortened depending on ventilation, such as enclosed spaces or strong winds. Any character with the Psyker talent caught within this zone must take a Very Hard (-30) Willpower Test or forget a randomly determined psychic power. If a Psyker fails by two our more SL, they must immediately roll on Psychic Phenomena. Psykers may automaƟcally recover 1 forgotten power every six hours. Additionally, any attempt to manifest a psychic power from within the cloud automatically fails. For Post-Great Crusade Games, they are worth 100,000 Solars and are Exotic.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 5,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "thrown,Ordnance",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "ffnhEDWebpt5KkQX",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!ffnhEDWebpt5KkQX"
+}

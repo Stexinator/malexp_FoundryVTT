@@ -1,0 +1,72 @@
+{
+  "name": "Galvanic Caster",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Wielded by Secutarii Peltasts, this electro-galvanically driven projectile weapon is akin to a Combi-weapon. With its main weapon mechanism, it is able to fire rapid bursts of low velocity razor-edged flechettes, or with its secondary discharger, attack concealed targets with retina-burning ignis charges. Some of these weapons are upgraded with a high-intensity capacitor which compresses the galvanic charge to fire an armour-piercing inert slug-shot at supersonic velocity. This complex but flexible weapon allows the Peltasts to engage a wide variety of enemy targets Galvanic Casters using its secondary discharger gain the Luminagen trait but lose the Rapid Fire trait, decreasing its damage to 5. The weapons upgraded with the capacitors to fire inert slugs also gain a third option of increasing damage to 10, increasing Penetrating to 8, but losing Rapid Fire.\nUnder normal Imperial circumstances, all weapons worsen their availability by one step (Common to Scarce, etc) and increase their costs by somewhere between 2 – 5x the original amount, as appropriate to the weapon.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 8,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 800,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "fHRjWKMrV0YNwo3X",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!fHRjWKMrV0YNwo3X"
+}

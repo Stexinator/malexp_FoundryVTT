@@ -1,0 +1,72 @@
+{
+  "name": "Osmodia Pattern Sniper Rifle",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "The Osmodia Pattern variant of the sniper rifle was developed to overcome this direct drawback. Fixed with acoustic baffles in its barrel, the dulled sound of its shots can prevent the shooter’s detection under the murmur of a hive city or the rumble of a manufactorum. These weapons are used by covert operatives in service to the Astra Militarum, as well as the Adeptus Arbites and Vigilites, as a precise means to cull those who would stoke discontent.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 1200,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 50,
+    "attackType": "ranged",
+    "category": "solid",
+    "spec": "longGun",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "hef3A6t352eH1PG7",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!hef3A6t352eH1PG7"
+}

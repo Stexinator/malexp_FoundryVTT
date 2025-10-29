@@ -1,0 +1,72 @@
+{
+  "name": "Null Rod",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Tests made to Manifest a psychic power that targets the Zone of the wielder, any individual within that Zone, or made within Short Range of a wielder of a Null weapon, suffers from Disadvantage. Additionally, daemons treat the Zone of a wielder with a Null weapon as a Minor Hazard. Null Rods are tall, obsidian rods, crackling with antipsychic energy, nullifying warp power within its area. A blow from a Null Rod can tear apart daemonic essence and trigger a cascade of cataclysmic energy within the mind of a rogue psyker. After battles and engagements, Null Rods must safely discharge their energy, lest they create rifts to the Warp. A Null Rod is a weapon commonly employed by the Ordo Malleus but not exclusive to them. When a Null Rod strikes a creature with a Warp Threshold, it gains Rend (X), where the X is the current Warp Charge of the target. Additionally, the first time a Null Rod strikes a psyker each day, the psyker must immediately make a Difficult (−10) Psychic Mastery Test and, upon failure, suffer Perils of the Warp.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 150,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "1",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "aSpPu9WCREV3SXfD",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!aSpPu9WCREV3SXfD"
+}

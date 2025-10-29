@@ -1,0 +1,72 @@
+{
+  "name": "Condemor Boltgun 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A Bolter with a Stake Crossbow strapped to the side, useful against psykers. Used almost only by the Ordo Hereticus and Sisters of Battle. This Combi-Weapons primary weapon is a Boltgun and the secondary weapon is the Condemnor Crossbow, which has the following profile: 8 Damage, Extreme Range, 1 Mag, Accurate, Loud, Penetrating (2), Reliable, Sanctified, Two-Handed. The Condemnor Crossbow may use any Crossbow Custom Ammunition",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 10,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 800,
+    "attackType": "ranged",
+    "category": "bolt",
+    "spec": "longGun",
+    "range": "long",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "BRgnYp2tnxYlHbTZ",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!BRgnYp2tnxYlHbTZ"
+}

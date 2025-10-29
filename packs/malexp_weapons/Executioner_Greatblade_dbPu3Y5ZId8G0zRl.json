@@ -1,0 +1,72 @@
+{
+  "name": "Executioner Greatblade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Power weapons often deal high Damage and have the Penetrating Trait while active (Imperium Maledictum, page 127). The following weapons have additional abilities, noted at the end of their entries. A fearsome and finely-wrought greatsword with a wicked cutting edge of diamond-hard silica glass, the Executioner Greatsword is a weapon of ancient design. It harkens to the oldest days of witch-hunting and executions. The blade’s exacting balance allows the wielder to combine duelling techniques with the ferocity of cleaving strikes. Executioner Greatswords are always Master Crafted (Imperium Maledictum, page 122).",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 150,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "dbPu3Y5ZId8G0zRl",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!dbPu3Y5ZId8G0zRl"
+}

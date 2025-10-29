@@ -1,0 +1,72 @@
+{
+  "name": "Power Ram",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "This power ram is a heavy tube with a pair of long handles running down each side of its length. Inside the tube is a potent power field connected to a piston, the head of which is often sculpted to resemble an Imperial Aquila. Usually held by two Arbitrators, who swing it against a door or even a wall, the Power Ram drives the piston forward, surrounded by the flickering energies of the disruption field. The weapon is powerful enough to blow most doors clean off their hinges and is more than capable of knocking holes in solid brick walls in seconds. Although this weapon can theoretically be used in combat, it is not designed for this— its primary use is as an entry device. All Weapon Skill Tests made using the weapon in melee combat are at -20 to represent how bulky it is. However, the ram is assumed to do double damage against inanimate structural objects such as doors and walls. Unless the GM wishes, for dramatic reasons, to prevent a wielder from entering a building, this weapon should allow entry into most normal structures instantly.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 3,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "power",
+    "spec": "twoHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "8dunpveDouW42wws",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!8dunpveDouW42wws"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "\"Judgeslayer\" Handcannon",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "All miscreants and lawbreakers fear their nefarious activities coming to the attention of either the Arbites or the local Enforcers. The more desperate among these scum take precautions against such a discovery, seeking out Hereteks or backstreet killsmiths and demanding weapons capable of stopping a carapace-armored Arbitrator in their tracks. Thousands of different confiscated “Judgeslayer” designs of this broad type line the walls of the vaults of precinct fortresses across the galaxy, a silent litany of murder and infamy stretching back centuries. All such designs are characterized by a crazed disregard for the safety of the user, as all normal precautions in pistol design are thrown to the winds to allow the creation of a weapon as likely as lethal to its user as its victim.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 450,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "7",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 40,
+    "attackType": "ranged",
+    "category": "force",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 4,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "d8H35pfgL6d4NRYo",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!d8H35pfgL6d4NRYo"
+}

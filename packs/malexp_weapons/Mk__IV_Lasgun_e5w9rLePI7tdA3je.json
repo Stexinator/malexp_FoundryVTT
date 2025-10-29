@@ -1,0 +1,72 @@
+{
+  "name": "Mk. IV Lasgun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Often employed by Elysian Drop Troop regiments, the Accatran MkIV is a bullpup-style lasgun with an integrated lamp pack. The lamp pack is powered by the same power cell that provides the lasgun’s ammunition, but the power draw is so small as to be negligible. The compact design of the weapon is due in part to the power cell’s location in the stock. The smaller profile of the Accatran MkIV is perfectly suited to the drop missions Elysian regiments often undertake, easily manoeuvred at short range or fired from the hip. Further, its lighter design allows wielders to carry other equipment in place of the extra bulk, which can be particularly vital for regiments that favour grav-chutes as a means of deployment.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 800,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 200,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "longGun",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 6,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "e5w9rLePI7tdA3je",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!e5w9rLePI7tdA3je"
+}

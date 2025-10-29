@@ -1,0 +1,72 @@
+{
+  "name": "Smoke Grenade",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Smoke grenades release plumes of thick gas that obscure the vision of most species (especially Humans). They don't block infrared, sound, or other means of detection, and so are easily mitigated by prepared combatants. Smoke grenades make the target Zone Heavily Obscured for three rounds. This duration can be extended or shortened depending on the ventilation, such as enclosed spaces or strong winds.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 30,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "0",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "grenadesExplosives",
+    "spec": "thrown,Ordnance",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "PFwHOJEYXEq0Ofiv",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!PFwHOJEYXEq0Ofiv"
+}

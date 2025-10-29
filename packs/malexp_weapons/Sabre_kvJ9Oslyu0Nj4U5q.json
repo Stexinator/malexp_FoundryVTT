@@ -1,0 +1,72 @@
+{
+  "name": "Sabre",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A favored weapon of cavalry troops and other mounted warriors, a saber is a sword with a long, curved, single-edged blade. The weapon’s excellent balance allows riders to keep a hand free to control their mounts, and its utility and effectiveness make it a very responsive weapon in skilled hands. Sabers persist in use in far more sophisticated climes and are popular with many Imperial Guard officers and hive nobles, often featuring mono-edge blades and even power field generators to enhance their effectiveness.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 80,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "2",
+      "characteristic": "str",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "melee",
+    "category": "mundane",
+    "spec": "oneHanded",
+    "range": "",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 0,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "kvJ9Oslyu0Nj4U5q",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!kvJ9Oslyu0Nj4U5q"
+}

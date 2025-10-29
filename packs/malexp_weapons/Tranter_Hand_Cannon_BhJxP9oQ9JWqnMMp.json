@@ -1,0 +1,72 @@
+{
+  "name": "Tranter Hand Cannon",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "These massive gas-operated stub automatics, sometimes mockingly referred to as a “poor man’s bolter”, are undoubtedly powerful but often plagued with mechanical problems and notoriously prone to jamming. This does little to alter their appeal, though, with those who like their weapons hugely menacing and capable of taking a man’s head clean off in one shot. Underhive and heretek workshops, from the bowels of Infernis to the rookeries of Solomon, produce Tranter knockoffs for eager buyers, while the Belasco Deathworks production models are actually little better in terms of reliability.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 800,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 40,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 2,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "BhJxP9oQ9JWqnMMp",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!BhJxP9oQ9JWqnMMp"
+}

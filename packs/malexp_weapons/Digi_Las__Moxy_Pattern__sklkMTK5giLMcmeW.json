@@ -1,0 +1,72 @@
+{
+  "name": "Digi-Las 'Moxy Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Impossibly advanced, the digi-weapons of the enigmatic Jokaero slip easily onto a user’s fingers like rings and fire either with a simple press of a button or by squeezing the band. The weapons themselves vary immensely and never seem to completely run out of ammunition, a facet of their design that remains a mystery to the Adeptus Mechanicus. The Weapons Table on the next page lists the most common digi-weapon, which incorporates the profile of a laspistol. Other digi-weapon types can include ones incorporating the profile of a flamer, grav pistol, inferno pistol, needle pistol, plasma pistol, or others at the GM’s discretion, by applying the Digitized weapon trait. It is easier to acquire a Digi-Weapon rather than digitizing a weapon, and no Endeavors are required to acquire one unless ordered at the GM’s discretion, unlike the Digital Weapon Weapon Upgrade.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 1,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "5",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 0,
+    "attackType": "ranged",
+    "category": "las",
+    "spec": "pistol",
+    "range": "medium",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "sklkMTK5giLMcmeW",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!sklkMTK5giLMcmeW"
+}

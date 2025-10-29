@@ -1,0 +1,72 @@
+{
+  "name": "Blowgun",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "A blowgun is a simple ranged weapon consisting of a narrow, long tube designed for firing light projectiles or darts. You attack with the gun by inserting a needle inside the pipe, then blowing sharply into one end to shoot the projectile out the opposite side. Unlike most ammunition weapons, a blowgun can be both loaded and fired using only one hand instead of two. The listed profile is loaded with Poisoned darts, as the blowgun is generally ineffective without it.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 10,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "6",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 5,
+    "attackType": "ranged",
+    "category": "specialized",
+    "spec": "longGun",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 1,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "G5vVxlqQZQSBbQBg",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!G5vVxlqQZQSBbQBg"
+}

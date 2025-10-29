@@ -1,0 +1,72 @@
+{
+  "name": "Bolt Carbine 'Angelus Pattern'",
+  "type": "weapon",
+  "system": {
+    "notes": {
+      "player": "Production of the Astartes bolts is carefully controlled and monitored, and once made, each case is stamped with the aquila and its maker’s mark before being passed on to the Adepts of the Machine God. Despite the security and precautions inherent in this sacred duty, it is said a few of these shells never see the aquila stamp. These so called “blind shells” are both utterly illegal and highly desirable, but on their own, blind shells are useless without a weapon to fire them. Consequently, the Fane of Fykos makes in secret a weapon known as the “Angelus”. Bluntly elegant in shape and crafted from the finest materials, the Angelus’s lacquered stock houses its magazine and unlocks to take three Astartes calibre bolt shells snugly nose to tail. Provided only to their richest and most trustworthy of clients, the exclusivity and terrible killing power of the Angelus is favoured by the wealthiest of bounty hunters and the most accomplished of beast-slayers in the Calixis Sector. Carrying one of these powerful, but highly illegal weapons entails certain risks all of its own.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 4,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "damage": {
+      "base": "8",
+      "characteristic": "",
+      "SL": false,
+      "ignoreAP": false
+    },
+    "traits": {
+      "list": []
+    },
+    "ammoCost": 400,
+    "attackType": "ranged",
+    "category": "power",
+    "spec": "longGun",
+    "range": "extreme",
+    "rangeModifier": {
+      "value": 0,
+      "override": ""
+    },
+    "mag": {
+      "value": 3,
+      "current": null
+    },
+    "ammo": {
+      "id": ""
+    },
+    "mods": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "XoZn0MY4LOKyYSP1",
+  "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bfVhf0cfdU0mWsuU": 3
+  },
+  "_key": "!items!XoZn0MY4LOKyYSP1"
+}
