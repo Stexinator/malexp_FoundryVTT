@@ -24,7 +24,21 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "close"
+        },
+        {
+          "key": "grav"
+        },
+        {
+          "key": "loud"
+        },
+        {
+          "key": "penetrating",
+          "value": "4"
+        }
+      ]
     },
     "ammoCost": 500,
     "attackType": "ranged",

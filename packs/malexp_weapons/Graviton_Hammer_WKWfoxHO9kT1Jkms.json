@@ -24,7 +24,15 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "grav"
+        },
+        {
+          "key": "heavy",
+          "value": "4"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

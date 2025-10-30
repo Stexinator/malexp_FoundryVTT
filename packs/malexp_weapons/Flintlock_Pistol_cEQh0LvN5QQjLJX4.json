@@ -24,7 +24,17 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "close"
+        },
+        {
+          "key": "inaccurate"
+        },
+        {
+          "key": "loud"
+        }
+      ]
     },
     "ammoCost": 15,
     "attackType": "ranged",

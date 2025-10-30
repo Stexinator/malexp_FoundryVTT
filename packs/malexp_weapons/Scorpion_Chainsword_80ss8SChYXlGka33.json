@@ -24,7 +24,18 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "aeldari"
+        },
+        {
+          "key": "loud"
+        },
+        {
+          "key": "rend",
+          "value": "3"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

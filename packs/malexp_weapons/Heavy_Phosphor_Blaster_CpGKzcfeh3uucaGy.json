@@ -24,7 +24,27 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "luminagen"
+        },
+        {
+          "key": "rapidFire",
+          "value": "3"
+        },
+        {
+          "key": "penetrating",
+          "value": "3"
+        },
+        {
+          "key": "rend",
+          "value": "3"
+        }
+      ]
     },
     "ammoCost": 600,
     "attackType": "ranged",

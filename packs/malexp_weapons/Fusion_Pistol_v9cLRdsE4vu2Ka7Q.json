@@ -24,7 +24,25 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "aeldari"
+        },
+        {
+          "key": "close"
+        },
+        {
+          "key": "loud"
+        },
+        {
+          "key": "penetrating",
+          "value": "2"
+        },
+        {
+          "key": "rend",
+          "value": "5"
+        }
+      ]
     },
     "ammoCost": 450,
     "attackType": "ranged",

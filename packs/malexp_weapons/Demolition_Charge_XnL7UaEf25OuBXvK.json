@@ -24,7 +24,17 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "loud"
+        },
+        {
+          "key": "spread"
+        },
+        {
+          "key": "unstable"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

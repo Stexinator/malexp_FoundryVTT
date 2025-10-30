@@ -24,7 +24,18 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "flamer"
+        },
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "ineffective"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "ranged",

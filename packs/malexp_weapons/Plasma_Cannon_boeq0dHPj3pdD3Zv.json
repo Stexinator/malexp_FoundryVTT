@@ -24,7 +24,26 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "loud"
+        },
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "penetrating",
+          "value": "6"
+        },
+        {
+          "key": "supercharge",
+          "value": "4"
+        },
+        {
+          "key": "unstable"
+        }
+      ]
     },
     "ammoCost": 660,
     "attackType": "ranged",

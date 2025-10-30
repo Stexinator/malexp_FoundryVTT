@@ -24,7 +24,18 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "loud"
+        },
+        {
+          "key": "reliable"
+        },
+        {
+          "key": "supercharge",
+          "value": "3"
+        }
+      ]
     },
     "ammoCost": 70,
     "attackType": "ranged",

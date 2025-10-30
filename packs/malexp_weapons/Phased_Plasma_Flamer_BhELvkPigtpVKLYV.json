@@ -24,7 +24,18 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "flamer"
+        },
+        {
+          "key": "loud"
+        },
+        {
+          "key": "rapidFire",
+          "value": "2"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "ranged",

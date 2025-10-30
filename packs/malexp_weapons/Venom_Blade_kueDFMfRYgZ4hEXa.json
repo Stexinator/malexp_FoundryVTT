@@ -24,7 +24,15 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "drukhari"
+        },
+        {
+          "key": "penetrating",
+          "value": "3"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

@@ -24,7 +24,15 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "close"
+        },
+        {
+          "key": "rapidFire",
+          "value": "3"
+        }
+      ]
     },
     "ammoCost": 200,
     "attackType": "ranged",

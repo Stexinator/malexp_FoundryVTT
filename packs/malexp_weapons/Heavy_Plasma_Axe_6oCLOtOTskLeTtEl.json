@@ -24,7 +24,16 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "penetrating",
+          "value": "8"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

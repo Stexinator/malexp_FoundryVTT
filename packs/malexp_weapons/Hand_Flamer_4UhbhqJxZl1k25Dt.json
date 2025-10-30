@@ -24,7 +24,17 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "close"
+        },
+        {
+          "key": "flamer"
+        },
+        {
+          "key": "loud"
+        }
+      ]
     },
     "ammoCost": 25,
     "attackType": "ranged",

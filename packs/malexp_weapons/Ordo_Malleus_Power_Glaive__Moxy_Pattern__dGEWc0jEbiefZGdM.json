@@ -24,7 +24,21 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "fast"
+        },
+        {
+          "key": "penetrating",
+          "value": "4"
+        },
+        {
+          "key": "reach"
+        },
+        {
+          "key": "sanctified"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

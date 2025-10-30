@@ -24,7 +24,18 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "subtle"
+        },
+        {
+          "key": "penetrating",
+          "value": "3"
+        },
+        {
+          "key": "transonic"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

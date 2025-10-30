@@ -24,7 +24,17 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "loud"
+        },
+        {
+          "key": "luminagen"
+        },
+        {
+          "key": "spread"
+        }
+      ]
     },
     "ammoCost": 300,
     "attackType": "ranged",

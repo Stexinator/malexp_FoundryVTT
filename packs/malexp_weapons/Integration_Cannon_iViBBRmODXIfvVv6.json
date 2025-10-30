@@ -24,7 +24,18 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "blast"
+        },
+        {
+          "key": "inaccurate"
+        },
+        {
+          "key": "penetrating",
+          "value": "6"
+        }
+      ]
     },
     "ammoCost": 950,
     "attackType": "ranged",

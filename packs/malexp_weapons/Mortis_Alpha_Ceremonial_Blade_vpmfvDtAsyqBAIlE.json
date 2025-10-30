@@ -24,7 +24,18 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "durable"
+        },
+        {
+          "key": "ornamental"
+        },
+        {
+          "key": "penetrating",
+          "value": "4"
+        }
+      ]
     },
     "ammoCost": 0,
     "attackType": "melee",

@@ -24,7 +24,17 @@
       "ignoreAP": false
     },
     "traits": {
-      "list": []
+      "list": [
+        {
+          "key": "aeldari"
+        },
+        {
+          "key": "flamer"
+        },
+        {
+          "key": "loud"
+        }
+      ]
     },
     "ammoCost": 20,
     "attackType": "ranged",
