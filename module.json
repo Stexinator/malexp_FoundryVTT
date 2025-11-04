@@ -1,7 +1,7 @@
 {
   "id": "impmal-malexp",
   "title": "Imperium Maledictum - Maledictum Expanded Homebrew Additions and Convertions",
-  "version": "1.0.2",
+  "version": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION,
   "compatibility": {
     "minimum": "12",
     "verified": "13"
@@ -60,5 +60,7 @@
         "compatibility": {}
       }
     ]
-  }
+  },
+  "manifest": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+  "download": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION"
 }
