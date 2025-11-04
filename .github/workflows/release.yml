@@ -48,12 +48,14 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: main
           allowUpdates: true
           omitDraftDuringUpdate: true
           omitPrereleaseDuringUpdate: true
           name: ${{ steps.get-version.outputs.version-without-v }}
           body: ${{ steps.changelog.outputs.release-notes }}
           artifacts: './module.json, ./module.zip'
+          makeLatest: true
 
       - name: Publish to FoundryVTT
         uses: cs96and/FoundryVTT-release-package@v1.0.2
