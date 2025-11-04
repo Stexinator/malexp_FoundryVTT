@@ -1,7 +1,9 @@
 name: Release Creation
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
+
 permissions:
   contents: write
 jobs:
@@ -20,10 +22,6 @@ jobs:
         id: set_var
         run: |
           echo "PACKAGE_JSON=$(jq -c . < module.json)" >> $GITHUB_OUTPUT
-
-      - name: Get Module Title
-        id: title
-        run: echo "title=${{ fromJson(steps.set_var.outputs.PACKAGE_JSON).title }}" >> "$GITHUB_OUTPUT"
 
       # Substitute the Manifest and Download URLs in the `module.json`.
       - name: Substitute Manifest and Download Links For Versioned Ones
