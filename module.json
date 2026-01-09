@@ -1,66 +1,75 @@
 {
-  "id": "impmal-malexp",
-  "title": "Imperium Maledictum - Maledictum Expanded Homebrew Additions and Convertions",
-  "version": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "13"
-  },
-  "description": "<p>Brings the expanded options (origins, species, talents, items, vehicles, etc.) from the community / fan-made to your Imperium Maledictum game.</p><hr /><p>Status:</p><ul><li><p>Talents Expanded: WiP</p></li><li><p>Expanded Origin: Planned</p></li><li><p>Expanded Armories: Planned (focus on Imperial &amp; AdMech)</p></li><li><p>Bestiary: Planned</p></li><li><p>Everything else: Maybe</p></li></ul><p></p><hr /><p>Credits for Imperium Maledictum go to Moxy.</p>",
-  "authors": [
-    {
-      "name": "Meins",
-      "flags": {}
+    "id": "impmal-malexp",
+    "title": "Imperium Maledictum - Maledictum Expanded Homebrew Additions and Convertions",
+    "version": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "13"
     },
-    {
-      "name": "Moxy",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "malexp_talents",
-      "label": "Expanded Talents",
-      "path": "packs/malexp_talents",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "impmal"
+    "description": "<p>Brings the expanded options (origins, species, talents, items, vehicles, etc.) from the community / fan-made to your Imperium Maledictum game.</p><hr /><p>Status:</p><ul><li><p>Talents Expanded: WiP</p></li><li><p>Expanded Origin: Planned</p></li><li><p>Expanded Armories: Planned (focus on Imperial &amp; AdMech)</p></li><li><p>Bestiary: Planned</p></li><li><p>Everything else: Maybe</p></li></ul><p></p><hr /><p>Credits for Imperium Maledictum go to Moxy.</p>",
+    "authors": [
+        {
+            "name": "Meins",
+            "flags": {}
+        },
+        {
+            "name": "Moxy",
+            "flags": {}
+        }
+    ],
+    "esmodules": ["module/main.js"],
+    "packs": [
+        {
+            "name": "malexp_talents",
+            "label": "Expanded Talents",
+            "path": "packs/malexp_talents",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "impmal"
+        },
+        {
+            "name": "malexp_weapons",
+            "label": "Expanded Weaponry",
+            "path": "packs/malexp_weapons",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "impmal"
+        },
+        {
+            "name": "malexp_bestiary",
+            "label": "Expanded Bestiary",
+            "path": "packs/malexp_bestiary",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "impmal"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Maledictum Expanded",
+            "sorting": "m",
+            "color": "",
+            "packs": ["malexp_talents", "malexp_weapons", "malexp_bestiary"]
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "impmal",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
     },
-   {
-      "name": "malexp_weapons",
-      "label": "Expanded Weaponry",
-      "path": "packs/malexp_weapons",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "impmal"
-   } 
-  ],
-  "packFolders": [
-    {
-      "name": "Maledictum Expanded",
-      "sorting": "m",
-      "color": "",
-      "packs":[
-        "malexp_talents",
-        "malexp_weapons"
-      ]
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "impmal",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "manifest": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
-  "download": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION"
+    "manifest": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "download": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION"
 }
