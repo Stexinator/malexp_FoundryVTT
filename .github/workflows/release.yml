@@ -13,10 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
 
-      # get part of the tag after the `v`
-      - name: Extract tag version number
+      # Get the version from 'module.json'
+      - name: Get Version
+        shell: bash
         id: get-version
-        run: echo "version-without-v=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+        run: echo "::set-output name=version::$(node ./.github/workflows/get-version.js)"
 
       - name: Get Module JSON
         id: set_var
@@ -30,9 +31,9 @@ jobs:
         with:
           files: module.json
         env:
-          version: ${{ steps.get-version.outputs.version-without-v }}
+          version: ${{steps.get-version.outputs.version}}
           manifest: https://github.com/${{ github.repository }}/releases/latest/download/module.json
-          download: https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.zip
+          download: https://github.com/${{ github.repository }}/releases/download/${{steps.get-version.outputs.version}}/module.zip
 
       - name: Build
         run: |
@@ -41,18 +42,18 @@ jobs:
 
       # Create a folder containing all the module stuff and zip it for the release
       - name: Create Zip
-        run: zip -r9 ./module.zip build/
+        run: cd build; zip -r ../module.zip ./
 
       - name: Update Release with Files
         id: create_version_release
         uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: main
+          tag: ${{steps.get-version.outputs.version}}
           allowUpdates: true
           omitDraftDuringUpdate: true
           omitPrereleaseDuringUpdate: true
-          name: ${{ steps.get-version.outputs.version-without-v }}
+          name: ${{steps.get-version.outputs.version}}
           body: ${{ steps.changelog.outputs.release-notes }}
           artifacts: './module.json, ./module.zip'
           makeLatest: true
@@ -64,4 +65,4 @@ jobs:
           PACKAGE_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
         with:
           package-token: ${{ env.PACKAGE_TOKEN }}
-          manifest-url: https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.json
+          manifest-url: https://github.com/${{ github.repository }}/releases/download/${{steps.get-version.outputs.version}}/module.json
