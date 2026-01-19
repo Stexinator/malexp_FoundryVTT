@@ -38,11 +38,11 @@ jobs:
       - name: Build
         run: |
           npm ci
-          npm run build
+          npm run release
 
       # Create a folder containing all the module stuff and zip it for the release
       - name: Create Zip
-        run: zip -r9 ./module.zip build/
+        run: zip -r9 ./module.zip impmal-malexp/
 
       - name: Update Release with Files
         id: create_version_release
