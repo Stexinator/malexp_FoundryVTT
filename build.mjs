@@ -5,9 +5,6 @@ import path from 'path';
 
 // Clean output directory, or create build directory
 let outDir = path.resolve(process.cwd(), 'build');
-if (process.argv[2] === '--release') {
-    outDir = path.resolve(process.cwd(), 'impmal-malexp');
-}
 
 if (existsSync(outDir)) {
     const filesToClean = (await fs.readdir(outDir)).map(dirName => path.resolve(outDir, dirName));
