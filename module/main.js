@@ -3,6 +3,11 @@ Hooks.on('init', () => {
         nurglitePowers: 'Nurglite Powers'
     });
 
+    foundry.utils.mergeObject(game.impmal.config.npcRoles, {
+        master: 'Master',
+        overseer: 'Overseer '
+    });
+
     foundry.utils.mergeObject(game.impmal.config.weaponArmourTraits, {
         accurate: 'Accurate',
         fast: 'Fast',
