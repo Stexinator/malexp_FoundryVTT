@@ -1,0 +1,55 @@
+{
+  "folder": "ytj2bRyf3gnTlD4W",
+  "name": "Clumsy",
+  "type": "talent",
+  "_id": "Il9pMbPHkzfCLVPn",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "notes": {
+      "player": "<p><span class=\"fontstyle0\">Ogryns may accidentally break items that are too small or fragile for them. Unless an Item has the Ogryn Proof trait or Durable quality, the Ogryn may be unable to use it (note: no weapons have the trait and it is up to the GM to assign that to weapons in the CRB armory and any other homebrew armory they use).</span> </p>",
+      "gm": ""
+    },
+    "requirement": {
+      "value": "",
+      "script": ""
+    },
+    "test": {
+      "difficulty": "challenging",
+      "characteristic": "",
+      "skill": {
+        "key": "",
+        "specialisation": ""
+      },
+      "self": false
+    },
+    "taken": 1,
+    "xp": 100,
+    "xpCost": 100,
+    "effectOptions": {
+      "list": []
+    },
+    "effectTakenRequirement": {},
+    "effectRepeatable": {},
+    "effectChoices": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "hR2OnBexveFmPbTt": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!items!Il9pMbPHkzfCLVPn"
+}

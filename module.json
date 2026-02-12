@@ -51,6 +51,17 @@
                 "ASSISTANT": "OWNER"
             },
             "system": "impmal"
+        },
+        {
+            "name": "malexp_expandedCharacterCreation",
+            "label": "Expanded Character Creation",
+            "path": "packs/malexp_expandedCharacterCreation",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "impmal"
         }
     ],
     "packFolders": [
@@ -58,7 +69,7 @@
             "name": "Maledictum Expanded",
             "sorting": "m",
             "color": "",
-            "packs": ["malexp_talents", "malexp_weapons", "malexp_bestiary"]
+            "packs": ["malexp_talents", "malexp_weapons", "malexp_bestiary", "malexp_expandedCharacterCreation"]
         }
     ],
     "relationships": {

@@ -1,0 +1,55 @@
+{
+  "folder": "ytj2bRyf3gnTlD4W",
+  "name": "But it dark in der!",
+  "type": "talent",
+  "_id": "VtDNZ5QtmkCKZcjG",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "notes": {
+      "player": "<p><span class=\"fontstyle0\">Ogryns are naturally claustrophobic and will refuse to enter caves, basements, ruins, troop compartments, or even smaller buildings. People an Ogryn considers its superior (i.e. Deckmasters, Shift Managers,</span> <span class=\"fontstyle0\">Commissars) can order them into such places, but suffer a -1SL penalty to any Presence (Leadership) Tests to do so, and Ogryns suffer a -1SL penalty to all Skill Tests when so confined.</span> </p>",
+      "gm": ""
+    },
+    "requirement": {
+      "value": "",
+      "script": ""
+    },
+    "test": {
+      "difficulty": "challenging",
+      "characteristic": "",
+      "skill": {
+        "key": "",
+        "specialisation": ""
+      },
+      "self": false
+    },
+    "taken": 1,
+    "xp": 100,
+    "xpCost": 100,
+    "effectOptions": {
+      "list": []
+    },
+    "effectTakenRequirement": {},
+    "effectRepeatable": {},
+    "effectChoices": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "hR2OnBexveFmPbTt": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!items!VtDNZ5QtmkCKZcjG"
+}
