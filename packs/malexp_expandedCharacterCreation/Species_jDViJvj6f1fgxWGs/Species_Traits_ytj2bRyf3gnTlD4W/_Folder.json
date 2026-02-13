@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "jDViJvj6f1fgxWGs",
+  "name": "Species Traits",
+  "color": null,
+  "sorting": "a",
+  "_id": "ytj2bRyf3gnTlD4W",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!ytj2bRyf3gnTlD4W"
+}

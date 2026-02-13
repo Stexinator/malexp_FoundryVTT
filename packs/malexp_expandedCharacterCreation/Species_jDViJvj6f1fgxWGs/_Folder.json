@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Species",
+  "color": null,
+  "sorting": "a",
+  "_id": "jDViJvj6f1fgxWGs",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!jDViJvj6f1fgxWGs"
+}

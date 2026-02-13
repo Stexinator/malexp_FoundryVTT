@@ -1,0 +1,183 @@
+{
+  "folder": "jDViJvj6f1fgxWGs",
+  "name": "Ogryn species",
+  "type": "equipment",
+  "_id": "FcBzWYnWF365KBxU",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "equipped": {
+      "value": false,
+      "hand": "",
+      "force": false
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 0,
+    "availability": "",
+    "quantity": 1,
+    "uses": {
+      "value": null,
+      "max": null,
+      "enabled": false
+    },
+    "test": {
+      "difficulty": "challenging",
+      "characteristic": "",
+      "skill": {
+        "key": "",
+        "specialisation": ""
+      },
+      "self": false
+    },
+    "traits": {
+      "list": []
+    },
+    "slots": {
+      "list": [],
+      "value": 0
+    }
+  },
+  "effects": [
+    {
+      "name": "Ogryn species",
+      "img": "icons/svg/item-bag.svg",
+      "_id": "YD9q79LPLwByjIOQ",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "this.actor.update({\n  'system.details.species': 'Ogryn'\n})\n\n\nlet dark = (await fromUuid('Compendium.impmal-malexp.malexp_expandedCharacterCreation.Item.VtDNZ5QtmkCKZcjG'))\n\nlet clumsy = (await fromUuid('Compendium.impmal-malexp.malexp_expandedCharacterCreation.Item.Il9pMbPHkzfCLVPn'))\n\nlet larger = (await fromUuid('Compendium.impmal-malexp.malexp_expandedCharacterCreation.Item.UOVHqAKco5yYLC5Y'))\n\nthis.actor.createEmbeddedDocuments('Item', [dark, clumsy, larger]);",
+            "label": "Set Ogryn values",
+            "trigger": "immediate",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          },
+          {
+            "script": "this.item.delete()",
+            "label": "Remove this",
+            "trigger": "onCreate",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!items.effects!FcBzWYnWF365KBxU.YD9q79LPLwByjIOQ"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "hR2OnBexveFmPbTt": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!items!FcBzWYnWF365KBxU"
+}

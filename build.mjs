@@ -20,7 +20,7 @@ console.log('Clean Finished');
 // Build packs
 const packFolders = await fs.readdir('packs');
 for (const pack of packFolders) {
-    await compilePack(`packs/${pack}`, path.resolve(outDir, `packs/${pack}`));
+    await compilePack(`packs/${pack}`, path.resolve(outDir, `packs/${pack}`), { recursive: true });
 }
 
 console.log('Build Packs Finished');
