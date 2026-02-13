@@ -50,7 +50,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{steps.get-version.outputs.version}}
-          allowUpdates: true
+          allowUpdates: false
           omitDraftDuringUpdate: true
           omitPrereleaseDuringUpdate: true
           name: ${{steps.get-version.outputs.version}}
